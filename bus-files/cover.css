@@ -14,6 +14,12 @@ a:hover {
   color: #222;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+	}
+
 /* Custom default button */
 .btn {
 	line-height: 1;
@@ -358,3 +364,46 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+.member-selfie {
+    min-width: 220px;
+	}
+	.member-selfie img {
+	    margin: 0 auto;
+	    display: block;
+	    width: 100%;
+			border-radius: 8px;
+	}
+	@media (min-width: 768px) {
+.member-selfie img {
+    margin: 0;
+    width: auto;
+	}
+}
+.member-about {
+    background: #fff;
+    position: relative;
+    box-shadow: 0 8px 24px 0 rgba(0,0,0,.08);
+    padding: 16px;
+    margin-top: -70px;
+    left: 0;
+    border-radius: 0 0 16px 16px;
+	}
+
+@media (min-width: 768px) {
+.member-about {
+    left: 16px;
+    border-radius: 16px;
+	}
+}
+.member-about h5 {
+    margin-bottom: 0;
+	}
+	.member-about p {
+    font-size: 14px;
+    color: #82818d;
+    letter-spacing: -.1px;
+	}
+	.author_social_link {
+    display: flex;
+	}
