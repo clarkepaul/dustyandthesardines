@@ -1,122 +1,151 @@
 <!DOCTYPE html>
 <html lang="en" class="gr__getbootstrap_com" style="overflow: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Paul Clarke">
-    <title>Done &amp; Dusted</title>
+	<!-- <div w3-include-html="header.html"></div> -->
 
-    <!-- Bootstrap core CSS -->
-<link href="./bus-files/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Paul Clarke">
+	<title>Done &amp; Dusted</title>
 
-<!-- Custom styles for this template -->
-<link href="./bus-files/cover.css" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script></head>
+	<!-- Bootstrap core CSS -->
+	<link href="./bus-files/bootstrap.min.css" rel="stylesheet">
 
-<body class="" data-gr-c-s-loaded="true" screen_capture_injected="true">
-	<div class="header_shadow"></div>
-	<div class="d-flex w-100 h-100 mx-auto flex-column">
-		<header class="masthead mb-auto">
-			<div class="inner">
-				<h3 class="masthead-brand"><a href="https://clarkepaul.github.io/done-and-dusted/index.html">Done &amp; Dusted</a></h3>
-				<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
-				<nav class="nav nav-masthead justify-content-center">
-					<a class="nav-link" href="index.html">Home</a>
-					<a class="nav-link" href="logbook.html">Logbook</a>
-					<a class="nav-link" href="projects.html">Projects</a>
-					<a class="nav-link active" href="about.html">About</a>
-					<a class="nav-link" href="contact.html">Contact</a>
-				</nav>
-			</div>
-		</header>
+	<!-- Custom styles for this template -->
+	<link href="./bus-files/cover.css" rel="stylesheet">
+	<link href="./bus-files/navigation.css" rel="stylesheet">
+	<link href="./bus-files/member-tile.css" rel="stylesheet">
+	<!-- <link type="text/css" rel="stylesheet" href="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script></head> -->
 
-		<main role="main" class="container home-content">
-			<div class="sm-col-12 col-8">
-				<h1 class="home-heading">Since July 2019</h1>
-				<p>Bought in July 2019, Done and Dusted was bought as a weekend wonderer. I was sold on the ample space of the bus being a wide and high but perhaps one of the biggest selling points were the 4 fully seatbelted seats which meant we could all ride up the front together. Having two small children we wanted forward facing seats with sholder seatbelts. was created with a goal of creating an online community of like-minded people. Our goal is to reduce stress, and live a simpler life.</p>
-			</div>
+	<script>
+	function includeHTML() {
+		var z, i, elmnt, file, xhttp;
+		/*loop through a collection of all HTML elements:*/
+		z = document.getElementsByTagName("*");
+		for (i = 0; i < z.length; i++) {
+			elmnt = z[i];
+			/*search for elements with a certain atrribute:*/
+			file = elmnt.getAttribute("w3-include-html");
+			if (file) {
+				/*make an HTTP request using the attribute value as the file name:*/
+				xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function() {
+					if (this.readyState == 4) {
+						if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+						if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+						/*remove the attribute, and call this function once more:*/
+						elmnt.removeAttribute("w3-include-html");
+						includeHTML();
+					}
+				}
+				xhttp.open("GET", file, true);
+				xhttp.send();
+				/*exit the function:*/
+				return;
+			}
+		}
+	};
+	</script>
 
+	<body class="about light-theme" data-gr-c-s-loaded="true" screen_capture_injected="true">
+		<div class="height_full_viewport" style="">
 
-			<div class="section bg-gray">
-  			<div class="container">
-    			<div class="max_width_80_percent_md">
-      			<h2>Meet the crew</h2>
-      			<p class="big-para">We all know that you really only come here to see photos of the babies and dog, but we figured we would show who else is on the journeys with them.</p>
-    			</div>
+		<div w3-include-html="header.html"></div>
 
-			    <div class="row justify-content-md-center">
+		<div class="header_shadow"></div>
+		<div class="d-flex w-100 h-100 mx-auto flex-column">
+			<div class="about_background_holder" style="background: url(images/caravan.jpg);"></div>
 
-			      <div class="col col-md-3 col-lg-3 pb-4">
-			        <div class="member-selfie">
-			          <img src="images/paul_isaac.jpg" class="border_radius_8" alt="Scott Adamson">
-			        </div>
-			        <div class="member-about">
-			          <h5>Paul Clarke</h5>
-			          <p>Driver, ideas man</p>
-			          <div class="author_social_link">
-			            <a href="https://www.instagram.com/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/instagram.svg" alt=""></figure></a>
-			            <a href="https://www.facebook.com/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/fb.svg" alt=""></figure></a>
-			            <a href="https://twitter.com/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/twitter.svg" alt=""></figure></a>
-			            <a href="https://www.youtube.com/channel/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/youtube.svg" alt=""></figure></a>
-			          </div>
-			        </div>
-			      </div>
+			<main role="main" class="container">
+				<div class="row">
+					<div class="col sm-col-9 col-8 align-content-end ">
+						<h1 class="home-heading">An adventure begins</h1>
+						<p>Done and Dusted was bought as a weekend wonderer in July 2019. We wanted ample space for the kids and living, being extra wide this bus provides plenty. One of the biggest selling points were the 4 fully seatbelted seats which meant we could all ride up the front together. Having two small children we wanted forward facing seats with sholder seatbelts. Our goal is to spend more time together, reduce stress by spending more time in nature.</p>
+					</div>
 
-			      <div class="col col-md-3 col-lg-3 pb-4">
-			        <div class="member-selfie">
-			          <img src="images/Kim.jpg" class="border_radius_8" alt="Gareth du Plooy">
-			        </div>
-			        <div class="member-about">
-			          <h5>Kim Marshall</h5>
-			          <p>Common sense of the family</p>
-			          <div class="author_social_link">
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="col col-md-3 col-lg-3 pb-4">
-			        <div class="member-selfie">
-			          <img src="images/isaac.jpg" class="border_radius_8" alt="Billy">
-			        </div>
-			        <div class="member-about">
-			          <h5>Isaac Clarke</h5>
-			          <p>Entertainer, dreamer, &amp; backup bus driver</p>
-			          <div class="author_social_link">
-			          </div>
-			        </div>
-			      </div>
-
-			      <div class="col col-md-4 col-lg-3 pb-4">
-			        <div class="member-selfie">
-			          <img src="https://picsum.photos/id/1025/400/440" class="border_radius_8" alt="">
-			        </div>
-			        <div class="member-about">
-			          <h5>Baby Clarke</h5>
-			          <p>Soon to be born Nov 2019</p>
-			          <div class="author_social_link">
-			          </div>
-			        </div>
-			      </div>
-
-						<div class="col col-md-3 col-lg-3 pb-4">
-							<div class="member-selfie">
-								<img src="images/tui.jpg" class="border_radius_8" alt="Billy">
+					<div class="section bg-gray">
+						<div class="container">
+							<div class="max_width_80_percent_md">
+								<h2>Meet the crew</h2>
+								<p class="big-para">We all know that you really only come here to see photos of the babies and dog, but we figured we would show who else is on the journeys with them.</p>
 							</div>
-							<div class="member-about">
-								<h5>Tui Clarke</h5>
-								<p>Protector and partime cleaner</p>
-								<div class="author_social_link">
+
+							<div class="row justify-content-md-center">
+
+								<div class="col col-sm-6 col-md-4 pb-4">
+									<div class="member-selfie" style="background-image: url('images/paul_isaac_kite.jpg');"></div>
+									<div class="member-about">
+										<h5>Paul</h5>
+										<p>Driver, ideas man</p>
+										<div class="author_social_link">
+											<a href="https://www.instagram.com/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/instagram.svg" alt=""></figure></a>
+											<a href="https://www.facebook.com/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/fb.svg" alt=""></figure></a>
+											<a href="https://twitter.com/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/twitter.svg" alt=""></figure></a>
+											<a href="https://www.youtube.com/channel/clarkepaul"><figure class="icon-small"><img src="./About - Done &amp; Dusted_files/youtube.svg" alt=""></figure></a>
+										</div>
+									</div>
 								</div>
-							</div>
-						</div>
 
-			    </div><!-- row -->
-			  </div><!-- end container -->
-			</div>
+								<div class="col col-sm-6 col-md-4 pb-4">
+									<div class="member-selfie" style="background-image: url('images/Kim.jpg');"></div>
+									<div class="member-about">
+										<h5>Kim</h5>
+										<p>Common sense of the family</p>
+										<div class="author_social_link">
+										</div>
+									</div>
+								</div>
 
-			</main>
+								<div class="col col-sm-6 col-md-4 pb-4">
+									<div class="member-selfie" style="background-image: url('images/isaac-2.jpg');"></div>
+									<div class="member-about">
+										<h5>Isaac</h5>
+										<p>Entertainer, dreamer, &amp; backup bus driver</p>
+										<div class="author_social_link">
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-sm-6 col-md-4 pb-4">
+									<div class="member-selfie" style="background-image: url('images/tui.jpg');"></div>
+									<div class="member-about">
+										<h5>Tui</h5>
+										<p>Security, taster, cleaner</p>
+										<div class="author_social_link">
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-sm-6 col-md-4 pb-4">
+									<div class="member-selfie" style="background-image: url('https://picsum.photos/id/683/400/440');"></div>
+									<div class="member-about">
+										<h5>Baby?</h5>
+										<p>Incubation, due Nov 2019</p>
+										<div class="author_social_link">
+										</div>
+									</div>
+								</div>
+
+
+							</div><!-- row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- row -->
+
+			</main><!-- end container -->
+
 			<div class="section big-image">
 				<div class="background-image-holder" style="background: url(images/caravan.jpg)"></div>
+				<div class="image-caption image-caption-about">
+
+					<div class="image-info">
+						<div class="image-title">
+							<span class="label-image">Days gone</span>
+							<p>We previously owned a small caravan which took us around the East Cape of the North Island and many weekends away camping. With our growing family size and the fact that we want to keep doing trips, going bigger was only a matter of time.</p>
+						</div>
+					</div>
+
+				</div>
 			</div>
 
 			<footer class="mastfoot mt-auto">
@@ -126,5 +155,10 @@
 			</footer>
 
 		</div>
+
+		<script>
+		includeHTML();
+		</script>
+
 	</body>
 </html>

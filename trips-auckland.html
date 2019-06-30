@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snazzy Maps Super Simple Example</title>
+
+        <style type="text/css">
+            /* Set a size for our map container, the Google Map will take up 100% of this container */
+            #map {
+                width: 750px;
+                height: 500px;
+            }
+        </style>
+
+        <!--
+            You need to include this script tag on any page that has a Google Map.
+
+            The following script tag will work when opening this example locally on your computer.
+            But if you use this on a localhost server or a live website you will need to include an API key.
+            Sign up for one here (it's free for small usage):
+                https://developers.google.com/maps/documentation/javascript/tutorial#api_key
+
+            After you sign up, use the following script tag with YOUR_GOOGLE_API_KEY replaced with your actual key.
+                <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY"></script>
+        -->
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+
+                    // How you would like to style the map.
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"all","elementType":"all","stylers":[{"invert_lightness":true},{"saturation":10},{"lightness":30},{"gamma":0.5},{"hue":"#435158"}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Snazzy Maps Super Simple Example</h1>
+        <h2><a href="https://snazzymaps.com/style/30/cobalt" target="_blank">Cobalt</a></h2>
+
+        <!-- The element that will contain our Google Map. This is used in both the Javascript and CSS above. -->
+        <div id="map"></div>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en" class="gr__getbootstrap_com" style="overflow: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Paul Clarke">
+  <title>Done &amp; Dusted</title>
+
+    <!-- Bootstrap core CSS -->
+	<link href="./bus-files/bootstrap.min.css" rel="stylesheet">
+
+	<style type="text/css">
+		/* Set a size for our map container, the Google Map will take up 100% of this container */
+		#map {
+				width: 750px;
+				height: 500px;
+		}
+
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+<!-- Custom styles for this template -->
+<link href="./bus-files/cover.css" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script></head>
+
+<body class="" data-gr-c-s-loaded="true" screen_capture_injected="true">
+	<div class="darktheme height_full_viewport bg" style="background: url(&quot;images/D&amp;D_side.jpg&quot;);">
+		<div class="header_shadow"></div>
+		<div class="d-flex w-100 h-100 mx-auto flex-column">
+			<header class="masthead mb-auto">
+				<div class="inner">
+					<h3 class="masthead-brand"><a href="https://doneanddusted.co.nz">Done &amp; Dusted</a></h3>
+					<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
+					<nav class="nav nav-masthead justify-content-center">
+						<a class="nav-link" href="index.html">Home</a>
+						<a class="nav-link active" href="logbook.html">Logbook</a>
+						<a class="nav-link" href="projects.html">Projects</a>
+						<a class="nav-link" href="about.html">About</a>
+						<a class="nav-link" href="contact.html">Contact</a>
+					</nav>
+				</div>
+			</header>
+
+			<main role="main" class="container home-content">
+				<div class="sm-col-12 col-8">
+					<h1 class="home-heading">We are <span>Done &amp; Dusted</span></h1>
+					<p>Interested in experiencing the motorhome lifestyle, we purchased an old 1980 Ford bus which is kitted out for comfortably living. We are really looking forward to the upcoming travels and spending time as a family.</p>
+					<p>
+						<a href="https://getbootstrap.com/docs/4.3/examples/cover/#" class="btn btn-lg btn-secondary btn-special">Meet the crew</a>
+					</p>
+			</div>
+
+			<div class="bottom_images row justify-content-end d-none d-lg-flex">
+				<div class="box-container col-lg-3 mr-4">
+					<div class="background-image-holder" style="background: url(https://picsum.photos/500/400?random=3);"></div>
+					<div class="image-caption">
+						<a href="#">
+							<div class="image-info">
+								<div class="image-title">
+									<span class="label-image">First trip</span>
+									<h4>Auckland home</h4>
+									<p>Read more</p>
+								</div>
+								<figure><img src="images/icon-arrow.svg" alt=""></figure>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="box-container col-lg-3 mr-4">
+					<div class="background-image-holder border_radius_8" style="background: url(https://picsum.photos/500/400?random=1);"></div>
+					<div class="image-caption">
+						<a href="#">
+							<div class="image-info">
+								<div class="image-title">
+									<span class="label-image">Bus tour</span>
+									<h4>Pick up</h4>
+									<p>Read more</p>
+								</div>
+								<figure><img src="images/icon-arrow.svg" alt=""></figure>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="box-container col-lg-3 mr-4">
+					<div class="background-image-holder border_radius_8" style="background: url(https://picsum.photos/500/400?random=2);"></div>
+					<div class="image-caption">
+						<a href="https://thewanderful.co/van-build/sprinter-van-espar-heater">
+							<div class="image-info">
+								<div class="image-title">
+									<span class="label-image">Licence</span>
+									<h4>Class 2</h4>
+									<p>Read more</p>
+									</div>
+									<figure>
+										<img src="images/icon-arrow.svg" alt=""></figure>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</main>
+
+				<footer class="mastfoot mt-auto">
+					<div class="inner">
+						<p>Done &amp; Dusted, by <a href="https://twitter.com/clarkepaul">@clarkepaul</a>.</p>
+					</div>
+				</footer>
+
+			</div>
+		</div>
+	</body>
+</html>

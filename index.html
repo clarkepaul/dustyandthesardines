@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en" class="gr__getbootstrap_com" style="overflow: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="">
 	<meta name="author" content="Paul Clarke">
@@ -11,7 +10,9 @@
 
 	<!-- Custom styles for this template -->
 	<link href="./bus-files/cover.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script></head>
+	<link href="./bus-files/navigation.css" rel="stylesheet">
+	<link href="./bus-files/member-tile.css" rel="stylesheet">
+	<!-- <link type="text/css" rel="stylesheet" href="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script></head> -->
 
 	<script>
 	function includeHTML() {
@@ -43,31 +44,18 @@
 	};
 	</script>
 
-	<body class="" data-gr-c-s-loaded="true" screen_capture_injected="true">
-
-
-
+	<body class="index" data-gr-c-s-loaded="true" screen_capture_injected="true">
 		<div class="darktheme height_full_viewport bg" style="background-image: url(&quot;images/D&amp;D_side.jpg&quot;);">
+
+			<div w3-include-html="header.html"></div>
+
 			<div class="header_shadow"></div>
 			<div class="d-flex w-100 h-100 mx-auto flex-column">
-				<header class="masthead mb-auto">
-					<div class="inner">
-						<h3 class="masthead-brand"><a href="https://clarkepaul.github.io/done-and-dusted/index.html">Done &amp; Dusted</a></h3>
-						<a href="#0" class="nav-trigger">Open Nav<span aria-hidden="true"></span></a>
-						<nav class="nav nav-masthead justify-content-center">
-							<a class="nav-link active" href="index.html">Home</a>
-							<a class="nav-link" href="logbook.html">Logbook</a>
-							<a class="nav-link" href="projects.html">Projects</a>
-							<a class="nav-link" href="about.html">About</a>
-							<a class="nav-link" href="contact.html">Contact</a>
-						</nav>
-					</div>
-				</header>
 
 				<main role="main" class="container home-content">
 					<div class="sm-col-12 col-8">
 						<h1 class="home-heading">We are <span>Done &amp; Dusted</span></h1>
-						<p>Interested in experiencing the motorhome lifestyle, we purchased an old 1980 Ford bus which is kitted out for comfortably living. We're really looking forward to the upcoming travels and spending time as a family.</p>
+						<p>Interested in experiencing the motorhome lifestyle, we purchased an old 1980 Ford bus which is kitted out for comfortably living. We're really looking forward to the upcoming travels and spending time as a family while seeing some sights.</p>
 						<p>
 							<a href="about.html" class="btn btn-lg btn-secondary btn-special">Meet the crew</a>
 						</p>
@@ -75,7 +63,7 @@
 
 					<div class="bottom_images row justify-content-end d-none d-lg-flex">
 						<div class="box-container col-lg-3 mr-4">
-							<div class="background-image-holder" style="background: url(https://picsum.photos/500/400?random=3);"></div>
+							<div class="background-image-holder" style="background: url(./images/auckland.jpg);"></div>
 							<div class="image-caption">
 								<a href="#">
 									<div class="image-info">
@@ -91,13 +79,13 @@
 						</div>
 
 						<div class="box-container col-lg-3 mr-4">
-							<div class="background-image-holder border_radius_8" style="background: url(https://picsum.photos/500/400?random=1);"></div>
+							<div class="background-image-holder border_radius_8" style="background: url(./images/bus_top_view_small.png);"></div>
 							<div class="image-caption">
 								<a href="#">
 									<div class="image-info">
 										<div class="image-title">
-											<span class="label-image">Bus tour</span>
-											<h4>Pick up</h4>
+											<span class="label-image">Pick up</span>
+											<h4>Bus tour</h4>
 											<p>Read more</p>
 										</div>
 										<figure><img src="images/icon-arrow.svg" alt=""></figure>
@@ -107,9 +95,9 @@
 						</div>
 
 						<div class="box-container col-lg-3 mr-4">
-							<div class="background-image-holder border_radius_8" style="background: url(https://picsum.photos/500/400?random=2);"></div>
+							<div class="background-image-holder border_radius_8" style="background: url(./images/bus_grill.png);"></div>
 							<div class="image-caption">
-								<a href="https://thewanderful.co/van-build/sprinter-van-espar-heater">
+								<a href="#">
 									<div class="image-info">
 										<div class="image-title">
 											<span class="label-image">Licence</span>
@@ -117,28 +105,27 @@
 											<p>Read more</p>
 										</div>
 										<figure>
-											<img src="images/icon-arrow.svg" alt=""></figure>
-										</div>
-									</a>
-								</div>
+											<img src="images/icon-arrow.svg" alt="">
+										</figure>
+									</div>
+								</a>
 							</div>
 						</div>
+					</div>
 
-					</main>
+				</main>
 
-					<footer class="mastfoot mt-auto">
-						<div class="inner">
-						</div>
-					</footer>
+				<footer class="mastfoot mt-auto">
+					<div class="inner">
+					</div>
+				</footer>
 
-				</div>
 			</div>
+		</div>
 
-			<div w3-include-html="content.html"></div>
+		<script>
+		includeHTML();
+		</script>
 
-<script>
-includeHTML();
-</script>
-
-		</body>
-		</html>
+	</body>
+</html>
