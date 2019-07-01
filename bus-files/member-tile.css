@@ -28,6 +28,14 @@
   bottom: auto;
   height: auto;
 }
+.bus-original {
+	height: 273px;
+	width: 365px;
+	background-size: cover;
+	float: right;
+	margin-left: 30px;
+	margin-bottom: 40px;
+}
 
 .background-image-holder {
     position: absolute;

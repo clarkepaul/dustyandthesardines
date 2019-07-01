@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  /* color: #fff; */
 }
 /* #hompage a,
 #hompage a:focus,
@@ -51,6 +51,11 @@ img {
 	border: 0;
 	font-size: 16px;
 }
+
+/* .icon-lg {
+	width: 40px;
+	height: 40px;
+} */
 
 
 /*
