@@ -37,10 +37,46 @@
   height: auto;
 }
 .bus-original {
-	background: #f1f1f5 url(../images/mosgield.jpg) top right no-repeat;
-	border-top: 1px solid #f1f1f5;
 	min-height: 480px;
+	position: relative;
 }
+.original-bus-image img {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+@media (max-width: 992px) {
+	.original-bus-image img {
+		width: 100%;
+		max-width: unset;
+		max-height: unset;
+		position: relative;
+	}
+}
+.original-bus-image::after {
+  width: 55%;
+  height: 100%;
+	background-color: #f1f1f5;
+  left: 0;
+  top: 0;
+	bottom: 0;
+  position: absolute;
+  z-index: 0;
+}
+@media (min-width: 993px) {
+	.original-bus-image::after {
+		content: "";
+	}
+}
+/* content: "";
+right: 0;
+display: block;
+position: absolute;
+width: 60%;
+height: 100%;
+background-size: cover;
+background: #fff;
+z-index: -1; */
 
 .background-image-holder {
     position: absolute;

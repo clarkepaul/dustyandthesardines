@@ -93,6 +93,23 @@ h2 {
 	font-weight: bold;
 }
 
+/* Nav-tabs */
+.nav-tabs .nav-link {
+  padding: .5rem 0;
+  margin-right: 20px;
+	color: #6c757d;
+	border-radius: 0;
+}
+.nav-tabs .nav-link:hover {
+	border-color: transparent;
+	border-bottom: 2px solid #6c757d;
+}
+.nav-tabs .nav-link.active {
+	background: transparent;
+	border-color: transparent;
+	border-bottom: 2px solid #333;
+}
+
 
 
 /*
