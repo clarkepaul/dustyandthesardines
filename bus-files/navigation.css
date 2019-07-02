@@ -1,15 +1,17 @@
 /*
  * Header
  */
- .header_shadow {
-  content: "";
-  left: 0;
-  display: block;
-  position: absolute;
-  width: 100%;
-  background-size: cover;
-  background-image: linear-gradient(180deg,#000 0,rgba(0,0,0,.987) 8.1%,rgba(0,0,0,.951) 15.5%,rgba(0,0,0,.896) 22.5%,rgba(0,0,0,.825) 29%,rgba(0,0,0,.741) 35.3%,rgba(0,0,0,.648) 41.2%,rgba(0,0,0,.55) 47.1%,rgba(0,0,0,.45) 52.9%,rgba(0,0,0,.352) 58.8%,rgba(0,0,0,.259) 64.7%,rgba(0,0,0,.175) 71%,rgba(0,0,0,.104) 77.5%,rgba(0,0,0,.049) 84.5%,rgba(0,0,0,.013) 91.9%,transparent);
-  top: 0;
+ .header {
+	 content: "";
+	 left: 0;
+	 display: block;
+	 position: absolute;
+	 width: 100%;
+	 background-size: cover;
+	 top: 0;
+}
+.header_shadow {
+ background-image: linear-gradient(180deg,#000 0,rgba(0,0,0,.987) 8.1%,rgba(0,0,0,.951) 15.5%,rgba(0,0,0,.896) 22.5%,rgba(0,0,0,.825) 29%,rgba(0,0,0,.741) 35.3%,rgba(0,0,0,.648) 41.2%,rgba(0,0,0,.55) 47.1%,rgba(0,0,0,.45) 52.9%,rgba(0,0,0,.352) 58.8%,rgba(0,0,0,.259) 64.7%,rgba(0,0,0,.175) 71%,rgba(0,0,0,.104) 77.5%,rgba(0,0,0,.049) 84.5%,rgba(0,0,0,.013) 91.9%,transparent);
 }
 
 .masthead {
@@ -92,7 +94,8 @@
 /* dark theme */
 .index .darktheme .nav-masthead .index,
 .contact .darktheme .nav-masthead .contact,
-.projects .darktheme .nav-masthead .projects {
+.projects .darktheme .nav-masthead .projects,
+.logbook .darktheme .nav-masthead .logbook {
   color: #fff;
   border-bottom-color: #fff;
 }

@@ -15,10 +15,14 @@ a:hover {
 } */
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-	}
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.bg-gray {
+  background: #f1f1f5;
+}
 
 /* Custom default button */
 .btn {
@@ -95,11 +99,9 @@ h2 {
  * Home
  */
 .home-content {
-	margin-top: 100px;
-	margin-bottom: 200px;
+	margin-bottom: 160px;
 
 	@media (min-width: 768px) {
-		margin-top: 0;
 		margin-bottom: 80px;
 	}
 }
