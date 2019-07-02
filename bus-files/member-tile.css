@@ -37,10 +37,9 @@
   height: auto;
 }
 .bus-original {
-	height: 100%;
-	min-width: 50%;
 	background: #f1f1f5 url(../images/mosgield.jpg) top right no-repeat;
-	/* background-size: cover; */
+	border-top: 1px solid #f1f1f5;
+	min-height: 480px;
 }
 
 .background-image-holder {
