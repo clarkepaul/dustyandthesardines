@@ -12,6 +12,14 @@
 .big-image {
 	position: relative;
 	min-height: 500px;
+	/* margin-top: 80px; */
+}
+.bottom-image {
+	background: url(images/caravan.jpg);
+	height: 100%;
+	width: 100%;
+	background-size: cover!important;
+	background-position: 50% 50%!important;
 }
 .image-caption a {
 	 color: #333;
@@ -44,16 +52,20 @@
 	position: absolute;
 	right: 0;
 	top: 0;
+	max-height: 480px;
 }
 @media (max-width: 992px) {
 	.original-bus-image img {
-		width: 100%;
-		max-width: unset;
+		min-width: 100%;
+		/* max-width: unset; */
 		max-height: unset;
 		position: relative;
 	}
 }
-.original-bus-image::after {
+.original-bus-image .tab-content {
+	width: 100%;
+}
+/* .original-bus-image::after {
   width: 55%;
   height: 100%;
 	background-color: #f1f1f5;
@@ -66,7 +78,27 @@
 @media (min-width: 993px) {
 	.original-bus-image::after {
 		content: "";
+		width: 100%;
 	}
+} */
+
+.image-toggle {
+	z-index: 9;
+	position: absolute;
+	right: 40px;
+	top: 40px;
+}
+.photo-credit {
+	position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 300px;
+  margin-left: auto;
+  padding: 5px 10px;
+  font-size: 11px;
+  border-radius: 4px;
+  color: #fff;
+  background: #000;
 }
 /* content: "";
 right: 0;

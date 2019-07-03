@@ -233,6 +233,11 @@ h2 {
     visibility: visible;
 	}
 
+	.tab-pane {
+		position: relative;
+	}
+
+
 /*
  * Footer
  */
@@ -246,11 +251,13 @@ h2 {
  */
 	.section {
     position: relative;
-    padding: 40px 0;
+    padding-top: 40px;
+		padding-bottom: 40px;
 	}
 	@media (min-width: 768px) {
 .section {
-    padding: 60px 0;
+    padding-top: 60px;
+		padding-bottom: 60px;
 	}
 }
 @media (min-width: 992px) {

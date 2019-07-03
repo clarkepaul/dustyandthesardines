@@ -21,6 +21,11 @@
 	line-height: 1.5;
 	color: #212529;
 }
+@media (max-width: 900px) {
+	.masthead {
+		height: 90px;
+	}
+}
 .masthead-brand {
   margin-bottom: 0;
 	position: absolute;
@@ -29,8 +34,13 @@
 	left: 0;
 	align-items: center;
 	margin-top: 22px;
-	margin-left: 36px;
+	margin-left: 20px;
 	transition: .2s linear;
+}
+@media (min-width: 574px) {
+	.masthead-brand {
+		margin-left: 36px;
+	}
 }
 .masthead-brand a {
 	width: 174px;
@@ -119,7 +129,7 @@
 .nav-trigger {
   position: absolute;
   top: 8px;
-  right: 12px;
+  right: 20px;
   height: 60px;
   width: 60px;
   overflow: hidden;
@@ -161,4 +171,26 @@
 }
 .nav-trigger span:after {
   transform: translateY(9px);
+}
+.light-theme .nav-trigger span,
+.light-theme .nav-trigger span:after,
+.light-theme .nav-trigger span:before {
+	background-color: #222;
+}
+.show + .nav-trigger span,
+.show + .nav-trigger span:after,
+.show + .nav-trigger span:before {
+	background-color: #FFF;
+}
+
+.nav-menu {
+	right: 10px;
+	z-index: 3;
+	position: absolute;
+	width: calc(100% - 20px);
+	top: 10px;
+	border-radius: 8px;
+}
+.nav-menu a {
+	color: #fff;
 }
