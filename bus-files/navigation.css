@@ -191,6 +191,11 @@
 	top: 10px;
 	border-radius: 8px;
 }
+@media (min-width: 900px) {
+	.nav-menu {
+		display: none;
+	}
+}
 .nav-menu a {
 	color: #fff;
 }
