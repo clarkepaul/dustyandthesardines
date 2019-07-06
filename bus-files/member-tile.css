@@ -12,7 +12,7 @@
 .big-image {
 	position: relative;
 	min-height: 500px;
-	/* margin-top: 80px; */
+	margin-top: 80px;
 }
 .bottom-image {
 	background: url(images/caravan.jpg);
@@ -91,8 +91,9 @@
 .photo-credit {
 	position: absolute;
   right: 10px;
-  bottom: 10px;
-  width: 300px;
+  top: 420px;
+  /* width: 340px; */
+	text-align: right;
   margin-left: auto;
   padding: 5px 10px;
   font-size: 11px;

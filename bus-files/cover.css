@@ -265,3 +265,14 @@ h2 {
     padding: 80px 0;
 	}
 }
+
+/* logbook */
+.logbook-list {
+ z-index: 10;
+ position: relative;
+}
+.logbook-item {
+	height: 200px;
+  transition: opacity .3s,transform .3s,margin-top .3s;
+	border-radius: 8px;
+}
