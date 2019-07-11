@@ -68,13 +68,14 @@ img {
 
 html,
 body {
-  height: 100%;
+  /* height: 100%; */
 
 }
 
 body {
   display: -ms-flexbox;
   display: flex;
+	flex-direction: column;
 }
 .darktheme {
 	color: #fff;
@@ -184,7 +185,7 @@ h2 {
 	  border-radius: 8px;
 	  left: 0;
 	  right: 0;
-	  margin: 0 auto -12px;
+	  margin: 0 auto 10px;
 	  box-shadow: .3s opacity;
 	  box-shadow: 0 6px 12px rgba(0,0,0,.23), 0 10px 40px rgba(0,0,0,.19);
 	}
@@ -215,7 +216,7 @@ h2 {
 		font-weight: 400;
 		line-height: 1.5;
 	}
-	.box-container .image-caption .image-info .image-title p {
+	.image-caption .image-info .image-title p {
     opacity: 1;
     transform: translate3d(0,30px,0);
     transition: opacity .3s,transform .5s,visibility .3s;
@@ -226,7 +227,9 @@ h2 {
     color: #da8c0c;
 	}
 	.box-container:hover .image-info .image-title,
-	.box-container:hover .image-info .image-title p {
+	.box-container:hover .image-info .image-title p,
+	.image-tile:hover .image-info .image-title,
+	.image-tile:hover .image-info .image-title p {
     margin-top: 0;
     opacity: 1;
     transform: translateZ(0);
@@ -249,6 +252,11 @@ h2 {
 /*
  * Section
  */
+ .main {
+	 margin-top: 100px;
+	 margin-bottom: 100px;
+	 width: 100%;
+ }
 	.section {
     position: relative;
     padding-top: 40px;
@@ -271,8 +279,17 @@ h2 {
  z-index: 10;
  position: relative;
 }
+.image-tile {
+	margin-bottom: 30px;
+}
 .logbook-item {
-	height: 200px;
+	height: 250px;
   transition: opacity .3s,transform .3s,margin-top .3s;
 	border-radius: 8px;
+	margin-bottom: 50px;
+  background-size: cover!important;
+  background-position: 50% 50%!important;
+}
+.image-tile .image-caption {
+	width: 80%;
 }

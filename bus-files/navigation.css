@@ -105,14 +105,16 @@
 .index .darktheme .nav-masthead .index,
 .contact .darktheme .nav-masthead .contact,
 .projects .darktheme .nav-masthead .projects,
-.logbook .darktheme .nav-masthead .logbook {
+.logbook .darktheme .nav-masthead .logbook,
+.album .darktheme .nav-masthead .album {
   color: #fff;
   border-bottom-color: #fff;
 }
 
 /* light theme */
 .logbook .nav-masthead .logbook,
-.about .nav-masthead .about {
+.about .nav-masthead .about,
+.album .nav-masthead .album {
 	color: #000;
   border-bottom-color: #000;
 }
