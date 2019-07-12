@@ -11,12 +11,11 @@
 
 .big-image {
 	position: relative;
-	min-height: 500px;
-	margin-top: 80px;
+	min-height: 700px;
 }
 .bottom-image {
-	background: url(images/caravan.jpg);
-	height: 100%;
+	background: url(./images/caravan.jpg);
+	min-height: 700px;
 	width: 100%;
 	background-size: cover!important;
 	background-position: 50% 50%!important;
@@ -28,31 +27,54 @@
 }
 .image-caption-about {
 	position: relative;
-	right: -30px;
-	top: 10px;
-	width: 30%;
 	padding: 30px 30px 40px;
-}
-.image-caption-about {
   position: absolute;
-  right: 30px;
-  top: -17px;
+  right: 40px;
+  top: 40px;
   width: 40%;
+	background: #fff;
   padding: 30px 30px 40px;
-  margin-right: 0;
+	margin: 0 0 10px auto;
   margin-left: auto;
   bottom: auto;
   height: auto;
+	border-radius: 8px;
+	box-shadow: 0 6px 12px rgba(0,0,0,.23), 0 10px 40px rgba(0,0,0,.19);
 }
 .bus-original {
-	min-height: 480px;
+	min-height: 400px;
 	position: relative;
+}
+.bus-old-images {
+	background-size: cover!important;
+	background-position: 50% 50%!important;
+	height: 100%;
+	width: 45%;
+	display: block;
+	right: 0;
+	background: red;
+	position: absolute;
+}
+.original-bus-image .tab-content {
+	box-shadow: 0 8px 24px 0 rgba(0,0,0,.08);
+}
+.original-bus-image .tab-content,
+.original-bus-image .tab-pane {
+	height: 100%;
+}
+.original-bus-image .tab-pane {
+	background-size: cover!important;
+	background-position: 50% 50%!important;
+	border-radius: 8px;
+	margin-top: -10px;
+	min-height: 300px;
 }
 .original-bus-image img {
 	position: absolute;
 	right: 0;
 	top: 0;
 	max-height: 480px;
+	max-width: calc(50% - 30px);
 }
 @media (max-width: 992px) {
 	.original-bus-image img {
@@ -84,15 +106,11 @@
 
 .image-toggle {
 	z-index: 9;
-	position: absolute;
-	right: 40px;
-	top: 40px;
+	top: -10px;
 }
 .photo-credit {
 	position: absolute;
   right: 10px;
-  top: 420px;
-  /* width: 340px; */
 	text-align: right;
   margin-left: auto;
   padding: 5px 10px;
@@ -100,6 +118,7 @@
   border-radius: 4px;
   color: #fff;
   background: #000;
+	bottom: 0;
 }
 /* content: "";
 right: 0;
