@@ -11,11 +11,10 @@
 
 .big-image {
 	position: relative;
-	min-height: 700px;
 }
 .bottom-image {
 	background: url(./images/caravan.jpg);
-	min-height: 700px;
+	min-height: 500px;
 	width: 100%;
 	background-size: cover!important;
 	background-position: 50% 50%!important;
@@ -87,23 +86,6 @@
 .original-bus-image .tab-content {
 	width: 100%;
 }
-/* .original-bus-image::after {
-  width: 55%;
-  height: 100%;
-	background-color: #f1f1f5;
-  left: 0;
-  top: 0;
-	bottom: 0;
-  position: absolute;
-  z-index: 0;
-}
-@media (min-width: 993px) {
-	.original-bus-image::after {
-		content: "";
-		width: 100%;
-	}
-} */
-
 .image-toggle {
 	z-index: 9;
 	top: -10px;
@@ -120,15 +102,6 @@
   background: #000;
 	bottom: 0;
 }
-/* content: "";
-right: 0;
-display: block;
-position: absolute;
-width: 60%;
-height: 100%;
-background-size: cover;
-background: #fff;
-z-index: -1; */
 
 .background-image-holder {
     position: absolute;
@@ -181,18 +154,6 @@ z-index: -1; */
 	background-size: cover;
 	border-radius: 8px;
 }
-/* .member-selfie img {
-	margin: 0 auto;
-	display: block;
-	width: 100%;
-	border-radius: 8px;
-}
-@media (min-width: 768px) {
-	.member-selfie img {
-		margin: 0;
-		width: auto;
-	}
-} */
 .member-about {
 	background: #fff;
 	position: relative;
@@ -216,3 +177,46 @@ z-index: -1; */
 	color: #82818d;
 	letter-spacing: -.1px;
 }
+
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 680px;
+    overflow: hidden;
+    display: flex;
+    height: 100%;
+	}
+	@media (min-width: 992px) {
+.left-section {
+    width: 35%;
+    position: relative;
+	}}
+@media (min-width: 992px) {
+.left-section, .skew:before {
+    background: #ebf2e3;
+	}}
+@media (min-width: 992px) {
+.skew {
+    position: absolute;
+    display: flex!important;
+    align-items: center;
+    height: 100%;
+    width: 130%;
+    flex-wrap: wrap;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: #ebf2e3;
+    transform: skew(15deg);
+	}}
+
+	.skewbg-reverse {
+	background-size: contain;
+	width: 100%;
+	height: 100%;
+	transform: skew(-15deg);
+	background: linear-gradient(90deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.95218) 25%,#fff 44%);
+}
+@media (min-width: 1200px) {
+.right-section {
+    width: 61%; }}

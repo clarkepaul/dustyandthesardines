@@ -85,6 +85,7 @@ body {
 }
 .darktheme {
 	color: #fff;
+	background-color: #535867;
 }
 
 .darktheme.bg {
@@ -134,6 +135,7 @@ h2 {
 	line-height: .9;
 	margin-bottom: 10px;
 	font-weight: 900;
+	margin-top: 6rem;
 }
 .home-heading span {
 	width: 348px;
