@@ -1,8 +1,10 @@
 .author_social_link {
 	display: flex;
+	float: right;
+	width: 90px;
 }
 .author_social_link figure {
-  margin-right: 16px!important;
+  margin-right: 10px;
 }
 .icon-small {
   width: 24px;
@@ -153,12 +155,13 @@
 	height: 350px;
 	background-size: cover;
 	border-radius: 8px;
+	margin-bottom: 50px;
 }
 .member-about {
 	background: #fff;
 	position: relative;
 	box-shadow: 0 8px 24px 0 rgba(0,0,0,.08);
-	padding: 16px;
+	padding: 16px 16px 8px;
 	margin-top: -70px;
 	left: 0;
 	border-radius: 0 0 16px 16px;
@@ -242,4 +245,17 @@
     text-align: left;
     padding: 0 30% 0 0;
 	}
+}
+
+.log-number {
+	font-size: 100px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 16px;
+	line-height: 1;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#baguetteBox-overlay .full-image figcaption {
+	padding: 50px;
 }
