@@ -259,3 +259,6 @@
 #baguetteBox-overlay .full-image figcaption {
 	padding: 50px;
 }
+.ronded-image {
+	border-radius: 8px;
+}
