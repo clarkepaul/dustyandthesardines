@@ -20,10 +20,15 @@
 	<link href="./bus-files/member-tile.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900&display=swap" rel="stylesheet">
 
+	<!-- gallery -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+	<link rel="stylesheet" href="./bus-files/fluid-gallery.css">
+
 
 	<!-- feather icons -->
 	<script src="./feather/feather.min.js"></script>
 
+	<!-- include nav -->
 	<script>
 	function includeHTML() {
 	  var z, i, elmnt, file, xhttp;
@@ -70,31 +75,49 @@
 		</div>
 
 		<div class="container section">
-			<div class="row">
-				<div class="offset-md-2 col-8">
+			<div class="row tz-gallery">
+				<div class="col-4">
 					<h2>Kids bunk bed</h2>
+					<p>I'm building a bunk bed for the kids above the main fixed double bed. We'd like to keep all sleeping areas in the back so we can still use the dinning area as normal in the evenings. I want the bunk to be easily stored away when not in use so its going to fold away into the wall like a Murphy Bed.
+					<p>I've purchased a fold-away bed which I'll be using for parts, and I've had to take away the cupboards above the main bed to make space. I'll also be moving the T.V. to the other side of the bus so a bit of rewiring is going to need to happen.</p>
 				</div>
-			</div>
-			<div class="row">
-				<div class="offset-md-2 col-5">
-					<p>Plans are underway to create a bunk bed for the kids above the main fixed double bed.</p>
-					<p>I've purchased a fold-away bed which I'll be using as the parts, and I've taken away the cupboards above the main bed to make more space.</p>
-					<p>We'd like to keep all sleeping areas in the back so we can still use the dinning area as normal in the evenings. I want the bunk to be easily stored away when not in use so its going to fold away into the wall like a Murphy Bed.
-					<p>For this all to happen I'll also be moving the T.V. to the other side of the bus so a bit of rewiring is going to need to happen.</p>
+				<div class="col-6">
+					<div class="row">
+						<div class="col-12">
+							<a class="lightbox" href="./images/gallery/ladder2.jpg" title="Rimu ladder almost done">
+									<div style="background-image: url('./images/gallery/ladder2.jpg');"></div>
+							</a>
+						</div>
+					</div>
 				</div>
-				<div class="col-3">
-					<img class="ronded-image" src="./images/bunk_purchase.jpg" />
+				<div class="col-2">
+					<div class="row">
+						<div class="col-12">
+							<a class="lightbox" href="./images/bunk_purchase.jpg" title="The bed I used for parts">
+									<div style="background: url('./images/bunk_purchase.jpg');"></div>
+							</a>
+						</div>
+						<div class="col-12">
+							<a class="lightbox" href="./images/gallery/ladder1.jpg" title="Ladder construction with dowels">
+									<div style="background-image: url('./images/gallery/ladder1.jpg');"></div>
+							</a>
+						</div>
+
+						<div class="col-12">
+							<a class="lightbox" href="./images/gallery/ladder3.jpg" title="Ready to install">
+									<div style="background-image: url('./images/gallery/ladder3.jpg');"></div>
+							</a>
+						</div>
+					</div>
 				</div>
+
 			</div>
 		</div>
 
-
-				<!-- <footer class="mastfoot mt-auto">
-					<div class="inner">
-						<p class="small">Done &amp; Dusted, by <a href="https://twitter.com/clarkepaul">@clarkepaul</a>.</p>
-					</div>
-				</footer> -->
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+		<script>
+				baguetteBox.run('.tz-gallery');
+		</script>
 
 		<script>
 		includeHTML();

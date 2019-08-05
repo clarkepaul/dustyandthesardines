@@ -2,7 +2,7 @@
     background-color: #fff;
     color: #35373a;
     /* min-height: 100vh; */
-    padding: 30px;
+    padding: 30px 43px;
 }
 
 .gallery-container h1 {
@@ -19,9 +19,9 @@
     color: #999;
 }
 
-.tz-gallery {
+/* .tz-gallery {
     padding: 0 13px;
-}
+} */
 
 /* Override bootstrap column paddings */
 .tz-gallery .row > div {
