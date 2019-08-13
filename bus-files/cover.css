@@ -126,30 +126,47 @@ h2 {
 /*
  * Home
  */
-.home-content {
-	margin-bottom: 160px;
-
-	@media (min-width: 768px) {
-		margin-bottom: 80px;
+@media (min-width: 768px) {
+	.home-content {
+		margin-bottom: 160px;
 	}
 }
-.home-heading {
-	font-size: 4em;
-	line-height: .9;
-	margin-bottom: 20px;
+.page-heading {
+	font-size: 2.6em;
+	line-height: 1.2;
+	/* margin-bottom: 10px; */
 	font-weight: 900;
-	margin-top: 6rem;
+	margin-top: 4rem;
+
+	@media (min-width: 768px) {
+			font-size: 4em;
+			line-height: .9;
+			margin-bottom: 20px;
+			margin-top: 6rem;
+	}
 }
-.home-heading span {
-	width: 348px;
-	height: 80px;
+
+.gallery-container,
+.logbook-container {
+    padding: 30px 43px;
+}
+
+.page-heading span {
+	width: 174px;
+	height: 40px;
 	display: inline-block;
 	position: relative;
 	background: url(../images/Brand@3x_white.png) transparent 0 0 no-repeat;
 	background-size: contain;
 	text-indent: -1000%;
-	bottom: 8px;
+
+	@media (min-width: 768px) {
+		width: 348px;
+		height: 80px;
+		bottom: 8px;
+	}
 }
+
 .height_full_viewport {
 	height: 100vh!important;
 	height: calc(var(--vh, 1vh) * 100) !important;
