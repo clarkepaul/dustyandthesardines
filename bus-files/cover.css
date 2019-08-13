@@ -141,10 +141,14 @@ h2 {
 
 @media (min-width: 768px) {
 	.page-heading {
-		font-size: 4em;
+		font-size: 3em;
 		line-height: .9;
 		margin-bottom: 20px;
 		margin-top: 6rem;
+	}
+
+	.index .page-heading {
+		font-size: 4em;
 	}
 }
 
