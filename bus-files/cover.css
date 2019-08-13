@@ -159,8 +159,10 @@ h2 {
 	background: url(../images/Brand@3x_white.png) transparent 0 0 no-repeat;
 	background-size: contain;
 	text-indent: -1000%;
+}
 
-	@media (min-width: 768px) {
+@media (min-width: 768px) {
+	.page-heading span {
 		width: 348px;
 		height: 80px;
 		bottom: 8px;
@@ -291,10 +293,10 @@ h2 {
     padding-top: 40px;
 		padding-bottom: 40px;
 	}
-	@media (min-width: 768px) {
-.section {
-    padding-top: 60px;
-		padding-bottom: 60px;
+@media (min-width: 768px) {
+	.section {
+	    padding-top: 60px;
+			padding-bottom: 60px;
 	}
 }
 @media (min-width: 992px) {
