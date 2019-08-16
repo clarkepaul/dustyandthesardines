@@ -49,12 +49,12 @@
 	height: 40px;
 	display: block;
 	position: relative;
-	background: url(../images/Brand@3x_white.png) transparent 0 0 no-repeat;
+	background: url(../images/brand/Brand@3x_white.png) transparent 0 0 no-repeat;
 	background-size: contain;
 	text-indent: -1000%;
 }
 .light-theme .masthead-brand a {
-	background: url(../images/Brand@3x_dark.png) transparent 0 0 no-repeat;
+	background: url(../images/brand/Brand@3x_dark.png) transparent 0 0 no-repeat;
 	background-size: contain;
 }
 

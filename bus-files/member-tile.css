@@ -15,7 +15,7 @@
 	position: relative;
 }
 .bottom-image {
-	background: url(./images/caravan.jpg);
+	background: url(./images/gallery/caravan.jpg);
 	min-height: 500px;
 	width: 100%;
 	background-size: cover!important;
@@ -61,7 +61,7 @@
 }
 .original-bus-image .tab-content,
 .original-bus-image .tab-pane {
-	height: 100%;
+	height: 400px;
 }
 .original-bus-image .tab-pane {
 	background-size: cover!important;
