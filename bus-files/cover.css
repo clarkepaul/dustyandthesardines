@@ -342,6 +342,10 @@ h2 {
 	width: 80%;
 }
 
+.large-spacer {
+	height: 100px;
+}
+
 /* Logbook */
 .tree-bg {
 	background-color: #ff7700;
