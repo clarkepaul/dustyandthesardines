@@ -250,19 +250,19 @@
 	}
 }
 .right-section, .skew:before {
-	background: #ebf2e3;
+	background: #eee;
 }
 .skew {
 	position: absolute;
 	display: none;
 	align-items: center;
 	height: 100%;
-	width: 60%;
+	width: 40%;
 	flex-wrap: wrap;
 	z-index: -1;
 	top: 0;
-	right: 60%;
-	background: #ebf2e3;
+	right: 78%;
+	background: #e9e9e9;
 	transform: skew(15deg);
 }
 @media (min-width: 768px) {
