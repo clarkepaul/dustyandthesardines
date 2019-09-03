@@ -95,9 +95,11 @@ body {
 
 .darktheme.bg {
 	background-color: #424b4a;
-  background-position: 50%!important;
   background-repeat: no-repeat!important;
   background-size: cover!important;
+}
+.bg.image-on-bottom {
+	background-position: 50%!important;
 }
 .darktheme.overlay {
 	box-shadow: inset 0 0 15rem 15rem rgba(0, 0, 0, .4), inset 0 0 100rem 100rem rgba(0, 0, 0, .3);
@@ -375,3 +377,90 @@ svg * { transform-box: fill-box; }
 		padding: 150px 30px;
 	}
 } */
+
+/* Posts */
+.add-number {
+    position: relative;
+    display: block;
+    text-align: left;
+    margin-bottom: -60px;
+    font-size: 80px;
+    font-weight: 700;
+    opacity: .5;
+    letter-spacing: -.5;
+	}
+	.bottommargin-8 {
+    margin-bottom: 8px;}
+		.text-uppercase {
+    text-transform: uppercase!important; }
+		.white-text { color: #fff!important; }
+		.large_line_height {
+    line-height: 2rem; }
+		.big-para {
+    font-size: 1.125rem;}
+		.blockThree {
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    width: 100%;
+    position: relative;
+    margin: 0 auto 48px;
+    overflow: hidden;
+	justify-content: center; }
+	.blocks {
+		position: relative;
+z-index: 10;
+    margin-top: -20px;
+	}
+	.shadowMedium {
+    box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07); }
+		.blockThree li {
+    flex-direction: row;
+		padding: 36px 48px;
+		width: 33%;
+    border: 0; }
+		.border_radius_8 {
+    border-radius: 8px;}
+		.card-icon-text {
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;}
+		li, ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+		.page-navigate {
+    position: relative;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: 24px;}
+		.page-navigate h5 {
+    margin-bottom: 0;
+    color: #00ca95;}
+		.page-nav-left {
+    padding-left: 36px;
+    flex: 0 0 50%; }
+		.page-nav-right {
+    padding-right: 36px;
+    flex: 0 0 50%;
+    text-align: right;}
+		.page-nav-right a:after {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    content: "";
+    background: url(/images/icons/arrow-small-right.svg) 50% no-repeat;
+    top: 12px;
+    right: 0;}
+		.page-nav-left a:after {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    content: "";
+    background: url(/images/icons/arrow-small-left.svg) 50% no-repeat;
+    top: 12px;
+    left: 0;}
+		/* .overlay.bg {
+			background-size: cover !important;
+    background-position: 50% !important;
+		} */
