@@ -434,6 +434,9 @@ z-index: 10;
     display: flex;
     margin-top: 24px;
     margin-bottom: 24px;}
+		.page-navigate a {
+			color: #686868;
+		}
 		.page-navigate h5 {
     margin-bottom: 0;
     color: #00ca95;}
@@ -464,3 +467,16 @@ z-index: 10;
 			background-size: cover !important;
     background-position: 50% !important;
 		} */
+		.no-marginbottom {
+			margin-bottom: 0;
+		}
+		.image-cover {
+			height: 300px;
+    	border-radius: 8px;
+    	margin-top: 20px;
+			margin-bottom: 20px;
+    	background-size: cover !important;
+		}
+		a:hover {
+			text-decoration: none;
+		}
