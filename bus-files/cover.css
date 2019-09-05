@@ -467,6 +467,13 @@ z-index: 10;
 			background-size: cover !important;
     background-position: 50% !important;
 		} */
+		.border-radius-8 {
+			border-radius: 8px;
+		}
+		.simple-image {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
 		.no-marginbottom {
 			margin-bottom: 0;
 		}
@@ -479,4 +486,13 @@ z-index: 10;
 		}
 		a:hover {
 			text-decoration: none;
+		}
+		.large-text {
+			font-size: 17px;
+		}
+		.right-50 {
+			float: right;
+			width: 50%;
+			margin-left: 30px;
+			margin-top: 0;
 		}
