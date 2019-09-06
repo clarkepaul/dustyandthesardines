@@ -383,7 +383,7 @@ svg * { transform-box: fill-box; }
     position: relative;
     display: block;
     text-align: left;
-    margin-bottom: -60px;
+    margin-bottom: -41px;
     font-size: 80px;
     font-weight: 700;
     opacity: .5;
@@ -432,7 +432,7 @@ z-index: 10;
 		.page-navigate {
     position: relative;
     display: flex;
-    margin-top: 24px;
+    margin-top: 50px;
     margin-bottom: 24px;}
 		.page-navigate a {
 			color: #686868;
@@ -495,4 +495,16 @@ z-index: 10;
 			width: 50%;
 			margin-left: 30px;
 			margin-top: 0;
+		}
+		figcaption {
+			padding: 0 0 18px;
+			margin-bottom: 20px;
+			margin-top: -8px;
+		}
+		figcaption::after {
+			display: block;
+			content: "";
+			border-bottom: .15rem solid #333;
+			width: 40px;
+			margin-top: 15px;
 		}
