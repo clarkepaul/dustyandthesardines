@@ -50,7 +50,7 @@
 			elmnt = z[i];
 			/*search for elements with a certain atrribute:*/
 			file = elmnt.getAttribute("include-nav");
-			file = elmnt.getAttribute("include-content");
+			// file = elmnt.getAttribute("include-content");
 			if (file) {
 				/*make an HTTP request using the attribute value as the file name:*/
 				xhttp = new XMLHttpRequest();
@@ -60,7 +60,7 @@
 						if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
 						/*remove the attribute, and call this function once more:*/
 						elmnt.removeAttribute("include-nav");
-						elmnt.removeAttribute("include-content");
+						// elmnt.removeAttribute("include-content");
 						includeHTML();
 					}
 				}
@@ -76,7 +76,7 @@
 	<body class="logbook" data-gr-c-s-loaded="true" screen_capture_injected="true">
 		<div role="main" class="darktheme overlay bg" style="background-position: bottom !important; background: url(./images/gallery/new_home_in_old_home.jpg);">
 			<div include-nav="header.html" class="header header_shadow"></div>
-			<div include-content="content.html" class=""></div>
+			<!-- <div include-content="content.html" class=""></div> -->
 			<div class="hero hero-intro align-items-center ">
 				<div class="container">
 					<div class="van-build-page-title-wrapper row justify-content-center">
@@ -85,7 +85,7 @@
 								<span class="add-number">02</span>
 								Road trip!
 							</h4>
-							<h1 class="white-text text-uppercase">Auckland – Welly</h1>
+							<h1 class="white-text">Auckland – Welly</h1>
 							<p class="lead big-para white-text large_line_height">Tanked up and ready for the trip back home.</p>
 						</div>
 					</div>

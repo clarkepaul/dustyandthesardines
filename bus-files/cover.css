@@ -383,9 +383,9 @@ svg * { transform-box: fill-box; }
     position: relative;
     display: block;
     text-align: left;
-    margin-bottom: -41px;
+    margin-bottom: -30px;
     font-size: 80px;
-    font-weight: 700;
+    font-weight: 900;
     opacity: .5;
     letter-spacing: -.5;
 	}

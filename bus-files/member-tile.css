@@ -189,11 +189,12 @@
 .hero {
   position: relative;
   width: 100%;
-  min-height: 400px;
+  /* min-height: 400px; */
   overflow: hidden;
   display: flex;
   height: 100%;
-	margin-bottom: 80px;
+	margin-top: 120px;
+	margin-bottom: 100px;
 	flex-direction: column;
 }
 
