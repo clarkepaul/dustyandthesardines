@@ -49,7 +49,8 @@
 		for (i = 0; i < z.length; i++) {
 			elmnt = z[i];
 			/*search for elements with a certain atrribute:*/
-			file = elmnt.getAttribute("w3-include-html");
+			file = elmnt.getAttribute("include-nav");
+			file = elmnt.getAttribute("include-content");
 			if (file) {
 				/*make an HTTP request using the attribute value as the file name:*/
 				xhttp = new XMLHttpRequest();
@@ -58,7 +59,8 @@
 						if (this.status == 200) {elmnt.innerHTML = this.responseText;}
 						if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
 						/*remove the attribute, and call this function once more:*/
-						elmnt.removeAttribute("w3-include-html");
+						elmnt.removeAttribute("include-nav");
+						elmnt.removeAttribute("include-content");
 						includeHTML();
 					}
 				}
@@ -73,8 +75,8 @@
 
 	<body class="logbook" data-gr-c-s-loaded="true" screen_capture_injected="true">
 		<div role="main" class="darktheme overlay bg" style="background-position: bottom !important; background: url(./images/gallery/new_home_in_old_home.jpg);">
-			<div w3-include-html="header.html" class="header header_shadow"></div>
-
+			<div include-nav="header.html" class="header header_shadow"></div>
+			<div include-content="content.html" class=""></div>
 			<div class="hero hero-intro align-items-center ">
 				<div class="container">
 					<div class="van-build-page-title-wrapper row justify-content-center">
@@ -126,10 +128,10 @@
 		<div class="container large-text">
 			<div class="row justify-content-center">
 				<div class="col-sm-10 col-md-8">
-					<p>I did my Class 2 course on the Saturday but after waiting for over an hour in a que to get the physical license, I was declined because I didn't have photo ID with me, it's really stupid because I had to give them my drivers licence a week eairler to get my Class 2 learners. Luckily I had my passport and there was a AA office open on Sunday so after getting my physical licence sorted I did a short drive with John (previous owner) to see me off and to tank up.</p>
-					<p>From there it was straight onto the motorway heading south. John and Lucy followed for a bit to see I got over the Bombay Hills and then waved me off. It took a bit getting used to how wide the bus is but it was fairly easy going on the Highway.</p>
+					<p>I did my Class 2 course on the Saturday but after waiting for over an hour in a que to get the physical license, I was declined because I didn't have photo ID with me. It's really stupid because I had to give them my drivers licence a week eairler to get my Class 2 learners. Luckily I also had my passport with me in Auckland by chance and there was a AA office open on Sunday. Managing to get my physical licence sorted on Sunday morning I managed to head off as planned. I did another short drive with John (previous owner) before seeing me off and tanking up.</p>
+					<p>From there it was straight onto the motorway heading south. John and Lesley followed for a bit to see I got over the Bombay Hills and then waved me off. It took a bit getting used to how wide the bus is but it was fairly easy going on the Highway.</p>
 					<p>The bus has a bit of pep in her, no issues getting up hills and easily goes over 100k although for the mojority of the trip I stayed under 90k at the legal speed.</p>
-					<iframe width="730" height="548" class="simple-image border-radius-8" src="https://www.youtube.com/embed/stN0SWMkl88" frameborder="0" allowfullscreen></iframe>
+					<iframe width="" height="" class="simple-image simple-video border-radius-8" src="https://www.youtube.com/embed/stN0SWMkl88" frameborder="0" allowfullscreen></iframe>
 					<p>I stopped off in my old home town Taupo for a break, down the road a bit futher I stopped in at Turangi for a burger and again in Bulls for dinner. I finally made it home at about 9pm in the evening so it was a big day on the road.</p>
 					<figure>
 						<img alt="Bus parked up in Taupo" class="simple-image border-radius-8" src="./images/gallery/new_home_in_old_home.jpg" />

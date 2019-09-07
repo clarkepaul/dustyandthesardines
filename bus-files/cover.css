@@ -474,6 +474,16 @@ z-index: 10;
 			margin-top: 20px;
 			margin-bottom: 20px;
 		}
+		.simple-video {
+			width: 100%;
+			min-height: 300px;
+		}
+		@media (min-width: 768px) {
+			.simple-video {
+				min-height: 400px;
+			}
+		}
+
 		.no-marginbottom {
 			margin-bottom: 0;
 		}
