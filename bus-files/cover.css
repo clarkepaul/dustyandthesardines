@@ -53,7 +53,7 @@ background-position: top center, bottom center; */
 }
 
 .btn-lg {
-	padding: 16px 28px 18px;
+	padding: 16px 28px;
 }
 
 .btn-special {
@@ -164,7 +164,8 @@ h2 {
 
 .gallery-container,
 .logbook-container {
-    padding: 30px 43px;
+    padding-left: 43px;
+		padding-right: 43px;
 }
 
 .page-heading span {
