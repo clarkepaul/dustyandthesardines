@@ -85,14 +85,11 @@
 	opacity: 1;
 	transition: color .2s;
 }
-.nav-menu {
-	padding-top: 50px !important;
-}
 .nav-menu .nav-link {
 	border-radius: 4px;
 }
 .nav-menu .nav-link:hover {
-	background-color: #252B31;
+	color: rgba(255, 255, 255, 0.8);
 }
 .darktheme .nav-masthead .nav-link {
 	color: rgba(255, 255, 255, .5);
