@@ -1,6 +1,7 @@
 .gallery-container {
     background-color: #fff;
     color: #35373a;
+		padding-top: 30px;
 }
 
 .gallery-container h1 {
@@ -17,20 +18,13 @@
     color: #999;
 }
 
-/* .tz-gallery {
-    padding: 0 13px;
-} */
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-    padding: 10px;
-}
 .tz-gallery .lightbox {
 	width: 100%;
 	padding-bottom: 75%;
 	display: block;
 	position: relative;
-	height: 100%;
+	margin-bottom: 30px;
+	/* height: 100%; */
 }
 .tz-gallery .lightbox img,
 .tz-gallery .lightbox > div {
