@@ -525,3 +525,6 @@ z-index: 10;
 			width: 40px;
 			margin-top: 15px;
 		}
+		.music-player {
+			background-color: #fafafa;
+		}

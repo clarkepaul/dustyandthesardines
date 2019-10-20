@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" class="gr__getbootstrap_com" style="overflow: auto;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<!-- <div w3-include-html="header.html"></div> -->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Paul Clarke">
+	<title>Done &amp; Dusted</title>
+
+	<!-- favicon -->
+	<link rel="apple-touch-icon-precomposed" href="favicon/bus-15-152-260672.png">
+	<meta name="msapplication-TileColor" content="#ffffff" />
+	<meta name="msapplication-TileImage" content="favicon/bus-15-144-260672.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="favicon/bus-15-152-260672.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon/bus-15-144-260672.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="favicon/bus-15-120-260672.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="favicon/bus-15-114-260672.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="favicon/bus-15-72-260672.png">
+	<link rel="apple-touch-icon-precomposed" href="favicon/bus-15-57-260672.png">
+	<link rel="icon" href="favicon/bus-15-32-260672.png" sizes="32x32">
+
+	<!-- Bootstrap core -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<link href="./bus-files/bootstrap.min.css" rel="stylesheet">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+	<!-- Custom styles for this template -->
+	<link href="./bus-files/cover.css" rel="stylesheet">
+	<link href="./bus-files/navigation.css" rel="stylesheet">
+	<link href="./bus-files/member-tile.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,700,900&display=swap" rel="stylesheet">
+
+	<script>
+	// Hello annimation
+	$(function() {
+    function animationStart() {
+        $('#container').addClass('fin');
+    }
+    setTimeout(animationStart, 250);
+});
+	</script>
+	<script>
+	function includeHTML() {
+		var z, i, elmnt, file, xhttp;
+		/*loop through a collection of all HTML elements:*/
+		z = document.getElementsByTagName("*");
+		for (i = 0; i < z.length; i++) {
+			elmnt = z[i];
+			/*search for elements with a certain atrribute:*/
+			file = elmnt.getAttribute("w3-include-html");
+			if (file) {
+				/*make an HTTP request using the attribute value as the file name:*/
+				xhttp = new XMLHttpRequest();
+				xhttp.onreadystatechange = function() {
+					if (this.readyState == 4) {
+						if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+						if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+						/*remove the attribute, and call this function once more:*/
+						elmnt.removeAttribute("w3-include-html");
+						includeHTML();
+					}
+				}
+				xhttp.open("GET", file, true);
+				xhttp.send();
+				/*exit the function:*/
+				return;
+			}
+		}
+
+		// function animationStart() {
+    //     $('#container-hello').addClass('fin');
+    // }
+    // setTimeout(animationStart, 250);
+	};
+
+
+	</script>
+
+	<body class="about light-theme" data-gr-c-s-loaded="true" screen_capture_injected="true">
+		<div w3-include-html="header.html" class="header"></div>
+		<main role="main" class="main mb-0">
+			<div id="hello-container">
+			    <svg id="hello-svg" data-name="hello" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 582 197">
+			        <title>Hello</title>
+			        <path class="path path-1" d="M208,338c38-16.67,73.74-45.72,97.33-66,21.33-18.33,32.67-35.67,37.33-52.67C347.12,203.12,344,192,332,192c-11,0-21,10.33-24.94,27.68-4.52,19.89-22.06,107.82-29.39,149,15.67-72.33,36.33-81.33,53.67-81.33,22.33,0,24.67,18.67,19.42,39-5.43,21.07-7.42,44.32,17.91,44.32,18,0,35.53-8.17,52.67-20,14-9.67,23-24,23-40,0-13.42-8-23.33-20.67-23.33s-24.33,12-24.33,33.33c0,27,16.33,48,44,48,25.67,0,47.67-19.67,62-44.67,13.61-23.74,30.67-64.67,33.33-92.67s-5.33-36-18.67-36-24.67,17.33-28.67,43.33S486,302,491.33,330s28,37.67,46,37.67,38.17-15.67,52-37c16.54-25.51,35.87-67.45,38.67-102,2-24.67-8.67-33.33-20-33.33-14.67,0-23.33,13.33-28,38-4.5,23.81-8,64-2,94,4.64,23.21,25.33,40.33,44.67,40.33s32.67-19,36.67-42.33" transform="translate(-199 -183)"/>
+			        <path class="path path-2" d="M697.33,287.33C672,287.33,661.33,305,659,327c-2.81,26.54,10.33,41.67,29.67,41.67,22,0,34.54-20.78,36.67-40.67,2-18.67-7.39-39.13-28-40.67" transform="translate(-199 -183)"/>
+			        <path class="path path-3" d="M714.8,295.12c12.11,12.26,43.53,9.55,56.53-5.79" transform="translate(-199 -183)"/>
+			        <line class="path path-4" x1="561" y1="181.67" x2="561" y2="181.67"/>
+			    </svg>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center text-center">
+					<div class="col-sm-auto col-lg-8">
+						<h1 class="page-heading">The adventure begins</h1>
+						<p class="lead">Our bus was bought as a weekend wonderer in July 2019. Hopefully we'll have some good times together and reduce stress by spending more time out and about or within nature.</p>
+					</div>
+				</div>
+			</div><!-- end container -->
+
+
+			<div class="section-curved">
+				<div class="section-wrap bus-original">
+				<div class="container section">
+					<div class="row">
+						<div class="col-lg-6 section">
+
+							<ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+								<li class="nav-item">
+							    <a class="nav-link active" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab" aria-controls="pills-about" aria-selected="true">Our bus</a>
+							  </li>
+								<li class="nav-item">
+							    <a class="nav-link" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Specs</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Motorhome</a>
+							  </li>
+							  <li class="nav-item">
+							    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">History</a>
+							  </li>
+							</ul>
+							<div class="tab-content" id="pills-tabContent">
+								<div class="tab-pane fade show active" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab">
+									<p>Done and Dusted is a 1980, extra wide 7.2m Ford. This bus provides plenty of space for the kids and living for those longer trips. One of the biggest selling points was the seating arrangement meaning we could all ride up the front together.</p>
+									<p>We are converting it to a 5 berth, adding our own touches but its mostly good to go as is.
+									</div>
+								<div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+									<div class="row">
+										<div class="col-6">
+											<ul class="list-unstyled">
+												<li><small class="text-muted">Make:</small> Ford</li>
+												<li><small class="text-muted">Model:</small> D-series DOG10</li>
+												<li><small class="text-muted">Body type:</small> Aluminum</li>
+												<li><small class="text-muted">Width:</small> Wide body?</li>
+												<li><small class="text-muted">Length:</small> 7.2m + spare wheel</li>
+											</ul>
+										</div>
+										<div class="col-6">
+											<ul class="list-unstyled">
+												<li><small class="text-muted">Year:</small> 1980</li>
+												<li><small class="text-muted">Origin:</small> NZ Built</li>
+												<li><small class="text-muted">Motor:</small> V6 Mitsi 6l 6D14</li>
+												<li><small class="text-muted">Gears:</small> 5sp. Man. low/high</li>
+												<li><small class="text-muted">Steering:</small> Assisted steering</li>
+											</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+									<p>We bought it fully kitted out with all of the basics we need for the time being.</p>
+									<p>It came with; kitchen, fridge, oven, gas hot water, toilet, shower, solar and alternator (12v/24v), swivel 22 inch TV, LED lights throughout, stainless grey/fresh tanks (200ltrs), 4 berth with full seatbelts, double bed, seperate dinning area, towbar, awning, large stand up boot.</p>
+									</div>
+							  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+									<p>Its been named <i>Done and Dusted</i> by the previous owners and we might just keep it like that. It's spent most of its life in Auckland but has previously done a stint in Wellington several years ago.</p>
+									<p>It was a passenger coach up to about 2007-9 (owned by several tour companies), we are the third private use owner but most of the motorhome conversion was done by the previous owner.</p>
+							 </div>
+							</div>
+						</div>
+
+						<div class="col-lg-6 original-bus-image">
+							<div class="tab-content" id="myTabContent">
+
+							  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="2004-tab" style="background-image: url('./images/gallery/mosgield.jpg');">
+									<p class="photo-credit">Photo: by Mike Butler in 2004, Mosgiel Coach Services</p>
+								</div>
+
+							  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="2010-tab" style="background-image: url('./images/gallery/bus_top_view_small.png');"></div>
+
+							  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="2019-tab"  style="background-image: url('./images/gallery/D&D_side.jpg');"></div>
+							</div>
+
+							<div class="nav btn-group btn-group-toggle image-toggle" id="myTab" role="tablist">
+							    <a class="btn btn-dark active" id="2004-tab" data-toggle="tab" href="#home" role="tab" aria-controls="2004" aria-selected="true">2004</a>
+							    <a class="btn btn-dark" id="2010-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="2010" aria-selected="false">200?</a>
+							    <a class="btn btn-dark" id="2019-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="2019" aria-selected="false">2019</a>
+							</div>
+
+						</div>
+					</div>
+				</div><!-- end container -->
+
+			</div>
+		</div>
+
+		<div class="section section-white-bg">
+
+			<div class="container">
+				<div class="row pb-4 justify-content-center">
+					<div class="col-8 text-center">
+						<i data-feather="users icon-lg"></i>
+						<i data-feather="circle"></i>
+						<h2><i data-feather="users"></i> Meet the crew</h2>
+						<p class="big-para mb-4">We are a family of 3 +dog from Wellington, New Zealand. If you want to chat <a href="mailto:2paulclarke@gmail.com">send us a message</a>, and we'll get back to you as soon as we can.</p>
+					</div>
+				</div>
+
+
+
+
+				<div class="row justify-content-center pb-4">
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="member-selfie paul" style="background-image: url('images/gallery/paul_isaac_kite.jpg');"></div>
+						<div class="member-about mb-4">
+							<div class="author_social_link">
+								<a href="https://www.instagram.com/clarkepaul"><figure class="icon-small"><img src="./images/social/instagram.svg" alt=""></figure></a>
+								<a href="https://www.facebook.com/2paulclarke"><figure class="icon-small"><img src="./images/social/fb.svg" alt=""></figure></a>
+								<a href="https://twitter.com/clarkepaul"><figure class="icon-small"><img src="./images/social/twitter.svg" alt=""></figure></a>
+							</div>
+							<h5>Paul</h5>
+							<p>Instigator of bus shenanigans</p>
+
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="member-selfie" style="background-image: url('images/gallery/kim_isaac.jpg');"></div>
+						<div class="member-about mb-4">
+							<h5>Kim</h5>
+							<p>Common sense of the family</p>
+							<div class="author_social_link">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="member-selfie" style="background-image: url('images/gallery/isaac-2.jpg');"></div>
+						<div class="member-about mb-4">
+							<h5>Isaac</h5>
+							<p>Entertainer, dreamer, &amp; backup bus driver</p>
+							<div class="author_social_link">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="member-selfie" style="background-image: url('images/gallery/tui.jpg');"></div>
+						<div class="member-about mb-4">
+							<h5>Tui</h5>
+							<p>Security, crumb cleaner</p>
+							<div class="author_social_link">
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-12 col-md-6 col-lg-4">
+						<div class="member-selfie" style="background-image: url('https://picsum.photos/id/683/400/440');"></div>
+						<div class="member-about mb-4">
+							<h5>Baby boy no. 2</h5>
+							<p>Incubation, due Nov 2019</p>
+							<div class="author_social_link">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!-- end container -->
+
+			<div class="large-spacer"></div>
+			<div class="container hero z_index_0">
+				<div class="hero-section has_middle_shadow_md_down left-section bg" style="background-image: url(./images/gallery/caravan.jpg);"></div>
+				<div class="hero-section justify-content-md-center justify-content-lg-start right-section">
+					<div class="selling-page-hero-title">
+						<h2>Days gone by</h2>
+						<p>We previously owned a small caravan which took us around the East Cape of the North Island and many weekends away camping.</p>
+						<p>Owning a caravan gave us an taste of what to expect on longer trips and living in small spaces. We loved the time we had with it but with another addition to the family coming we are looking forward to the extra space of the bus.</p>
+					</div>
+					<div class="skew">
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+		<!-- html includes -->
+		<script>
+		includeHTML();
+		</script>
+
+	</body>
+</html>
