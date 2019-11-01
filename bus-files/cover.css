@@ -164,8 +164,8 @@ h2 {
 
 .gallery-container,
 .logbook-container {
-    padding-left: 43px;
-		padding-right: 43px;
+    padding-left: 23px;
+		padding-right: 23px;
 }
 
 .page-heading span {
@@ -535,3 +535,7 @@ z-index: 10;
 			top: -20px;
 			position: relative;
 		}
+
+.line-through {
+	text-decoration: line-through;
+}
