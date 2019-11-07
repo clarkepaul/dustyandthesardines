@@ -558,3 +558,7 @@ h2 + p > small {
 .line-through {
 	text-decoration: line-through;
 }
+.small-label {
+	font-size: 0.9em;
+	color: #6d7a98;
+}
