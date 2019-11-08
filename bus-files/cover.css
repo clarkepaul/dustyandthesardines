@@ -61,9 +61,9 @@ img {
 	display: inline-block;
 	text-transform: uppercase;
 	text-shadow: none; /* Prevent inheritance from `body` */
-	background-color: #00ca95;
-	background: linear-gradient(50deg,#00ca95 29%,#00a292);
-	color: #fff !important;
+	background-color: #a6c3c1;
+	background: linear-gradient(175deg,#779896 50%,#648684);
+	color: #222 !important;
 	border: 0;
 	font-size: 16px;
 }

@@ -109,10 +109,13 @@
 .darktheme .nav-masthead .nav-link:hover:after {
 	background: #333;
 }
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-	/* border-bottom-color: #a6c3c1; /* #00a292; rgba(255, 255, 255, .25); */ */
-	color: #000;
+.darktheme .nav-masthead .nav-link:hover,
+.darktheme .nav-masthead .nav-link:focus {
+	color: rgba(255, 255, 255, .8);
+}
+.light-theme .nav-masthead .nav-link:hover,
+.light-theme .nav-masthead .nav-link:focus {
+	color: rgba(0, 0, 0, .8);
 }
 .nav-masthead .nav-link:hover:after,
 .nav-masthead .nav-link:focus:after {
@@ -124,6 +127,14 @@
 }
 
 /* dark theme */
+.index .darktheme .nav-masthead .index,
+.contact .darktheme .nav-masthead .contact,
+.projects .darktheme .nav-masthead .projects,
+.logbook .darktheme .nav-masthead .logbook,
+.album .darktheme .nav-masthead .album {
+  color: #fff;
+  /* border-bottom-color: #fff; */
+}
 .index .darktheme .nav-masthead .index,
 .contact .darktheme .nav-masthead .contact,
 .projects .darktheme .nav-masthead .projects,
