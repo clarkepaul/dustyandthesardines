@@ -414,6 +414,13 @@ padding: 150px 30px;
 	overflow: hidden;
 	justify-content: center;
 }
+@media (max-width: 768px) {
+	.blockThree {
+		flex-direction: column;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
 .blocks {
 	position: relative;
 	z-index: 10;
@@ -427,6 +434,12 @@ padding: 150px 30px;
 	padding: 36px 48px;
 	width: 33%;
 	border: 0;
+}
+@media (max-width: 768px) {
+	.blockThree li {
+		width: 100%;
+		padding: 5px 30px;
+	}
 }
 .border_radius_8 {
 	border-radius: 8px;
