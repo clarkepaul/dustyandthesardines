@@ -490,7 +490,7 @@ li, ol, ul {
 	width: 24px;
 	height: 24px;
 	content: "";
-	background: url(/images/icons/arrow-small-right.svg) 50% no-repeat;
+	background: url(../images/icons/arrow-small-right.svg) 50% no-repeat;
 	top: 26px;
 	right: 16px;
 }
@@ -499,7 +499,7 @@ li, ol, ul {
 	width: 24px;
 	height: 24px;
 	content: "";
-	background: url(/images/icons/arrow-small-left.svg) 50% no-repeat;
+	background: url(../images/icons/arrow-small-left.svg) 50% no-repeat;
 	top: 26px;
 	left: 16px;
 }
