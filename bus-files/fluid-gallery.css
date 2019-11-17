@@ -1,6 +1,7 @@
 .gallery-container {
     background-color: #fff;
     color: #35373a;
+		padding-top: 30px;
 }
 
 .gallery-container h1 {
@@ -17,20 +18,12 @@
     color: #999;
 }
 
-/* .tz-gallery {
-    padding: 0 13px;
-} */
-
-/* Override bootstrap column paddings */
-.tz-gallery .row > div {
-    padding: 10px;
-}
 .tz-gallery .lightbox {
 	width: 100%;
 	padding-bottom: 75%;
 	display: block;
 	position: relative;
-	height: 100%;
+	margin-bottom: 20px;
 }
 .tz-gallery .lightbox img,
 .tz-gallery .lightbox > div {
@@ -98,4 +91,18 @@
 
 #baguetteBox-overlay .full-image img {
 	border-radius: 8px;
+}
+
+.tz-gallery .h-12per.lightbox {
+	padding-bottom: 12%;
+}
+.tz-gallery .h-25per.lightbox {
+	padding-bottom: 25%;
+}
+.tz-gallery .h-50per.lightbox {
+	padding-bottom: 50%;
+}
+
+figure {
+	margin: 0;
 }
