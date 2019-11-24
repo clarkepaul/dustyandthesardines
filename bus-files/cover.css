@@ -61,11 +61,14 @@ img {
 	display: inline-block;
 	text-transform: uppercase;
 	text-shadow: none; /* Prevent inheritance from `body` */
-	background-color: #a6c3c1;
-	background: linear-gradient(175deg,#779896 50%,#648684);
-	color: #222 !important;
+	background-color: #da8c0c;
+	/* background: linear-gradient(175deg,#779896 50%,#648684); */
+	color: #FFF !important;
 	border: 0;
 	font-size: 16px;
+}
+.btn-special:hover {
+	background-color: #da8c0c;
 }
 .btn-group>.btn:not(:first-child) {
 	margin-left: 0;
