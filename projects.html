@@ -46,6 +46,7 @@
 	<!-- gallery -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 	<link rel="stylesheet" href="./bus-files/fluid-gallery.css">
+	<script src="./bus-files/scroller.js"></script>
 
 
 	<!-- feather icons -->
@@ -82,6 +83,83 @@
 	};
 	</script>
 
+	<script>
+	$(document).ready(function(){
+	// duration of scroll animation
+	var scrollDuration = 300;
+	// paddles
+	var leftPaddle = document.getElementsByClassName('left-paddle');
+	var rightPaddle = document.getElementsByClassName('right-paddle');
+	// get items dimensions
+	var itemsLength = $('.item').length;
+	var itemSize = $('.item').outerWidth(true);
+	// get some relevant size for the paddle triggering point
+	var paddleMargin = 20;
+
+	// get wrapper width
+	var getMenuWrapperSize = function() {
+		return $('.menu-wrapper').outerWidth();
+	}
+	var menuWrapperSize = getMenuWrapperSize();
+	// the wrapper is responsive
+	$(window).on('resize', function() {
+		menuWrapperSize = getMenuWrapperSize();
+	});
+	// size of the visible part of the menu is equal as the wrapper size
+	var menuVisibleSize = menuWrapperSize;
+
+	// get total width of all menu items
+	var getMenuSize = function() {
+		return itemsLength * itemSize;
+	};
+	var menuSize = getMenuSize();
+	// get how much of menu is invisible
+	var menuInvisibleSize = menuSize - menuWrapperSize;
+
+	// get how much have we scrolled to the left
+	var getMenuPosition = function() {
+		return $('.menu').scrollLeft();
+	};
+
+	// finally, what happens when we are actually scrolling the menu
+	$('.menu').on('scroll', function() {
+
+		// get how much of menu is invisible
+		menuInvisibleSize = menuSize - menuWrapperSize;
+		// get how much have we scrolled so far
+		var menuPosition = getMenuPosition();
+
+		var menuEndOffset = menuInvisibleSize - paddleMargin;
+
+		// show & hide the paddles
+		// depending on scroll position
+		if (menuPosition <= paddleMargin) {
+			$(leftPaddle).addClass('hidden');
+			$(rightPaddle).removeClass('hidden');
+		} else if (menuPosition < menuEndOffset) {
+			// show both paddles in the middle
+			$(leftPaddle).removeClass('hidden');
+			$(rightPaddle).removeClass('hidden');
+		} else if (menuPosition >= menuEndOffset) {
+			$(leftPaddle).removeClass('hidden');
+			$(rightPaddle).addClass('hidden');
+	}
+
+	});
+
+	// scroll to left
+	$(rightPaddle).on('click', function() {
+		$('.menu').animate( { scrollLeft: menuInvisibleSize}, scrollDuration);
+	});
+
+	// scroll to right
+	$(leftPaddle).on('click', function() {
+		$('.menu').animate( { scrollLeft: '0' }, scrollDuration);
+	});
+	});
+	</script>
+
+
 	<body class="projects" data-gr-c-s-loaded="true" screen_capture_injected="true">
 		<div role="main" class="darktheme overlay bg image-on-bottom" style="background: url(https://picsum.photos/id/527/1400/1400);">
 			<div w3-include-html="header.html" class="header header_shadow"></div>
@@ -95,10 +173,29 @@
 				</div>
 			</div>
 		</div>
-		<a href="#aug">August</a>
-		<a href="#sep">September</a>
-		<a href="#oct">October</a>
-		<a href="#nov">November</a>
+
+		<div class="menu-wrapper">
+			<ul class="menu">
+				<li class="item">2019</li><!--
+		--><li class="item"><a href="#aug">August</a></li><!--
+		--><li class="item"><a href="#sep">September</a></li><!--
+		--><li class="item"><a href="#oct">October</a></li><!--
+		--><li class="item"><a href="#nov">November</a></li><!--
+		--><li class="item">2020</li>
+			</ul>
+
+			<div class="paddles">
+				<button class="left-paddle paddle hidden">
+					<
+				</button>
+				<button class="right-paddle paddle">
+					>
+				</button>
+			</div>
+
+		</div>
+
+
 
 		<div class="container tz-gallery">
 
@@ -237,6 +334,7 @@
 			<script>
 			includeHTML();
 			</script>
+
 
 		</body>
 		</html>
