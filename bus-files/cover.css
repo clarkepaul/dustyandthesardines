@@ -578,3 +578,9 @@ h2 + p > small {
 	font-size: 0.9em;
 	color: #6d7a98;
 }
+.date-outside {
+	position: absolute;
+	left: -120px;
+	width: 100px;
+	text-align: right;
+}
