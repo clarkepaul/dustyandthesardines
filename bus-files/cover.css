@@ -579,14 +579,13 @@ h2 + p > small {
 	color: #6d7a98;
 }
 .date-outside {
-	left: 17px;
 	position: relative;
 }
-@media (min-width: 768px) {
+@media (min-width: 1330px) {
 	.date-outside {
 		text-align: right;
 		position: absolute;
-		left: -120px;
+		left: -106px;
 		width: 100px;
 	}
 }
