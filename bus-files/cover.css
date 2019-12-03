@@ -202,7 +202,7 @@ h2 {
 */
 .bottom_images {
 	position: absolute;
-	bottom: 24px;
+	bottom: 10px;
 	z-index: 100;
 	right: 0;
 	margin-right: 0!important;
@@ -227,7 +227,14 @@ h2 {
 .box-container {
 	height: 200px;
 	width: 340px;
+	padding: 0;
+	margin-bottom: 50px;
 	transition: opacity .3s,transform .3s,margin-top .3s;
+}
+.box-container > a {
+	display: block;
+  height: 100%;
+  width: 100%;
 }
 .image-caption {
 	overflow: hidden;
@@ -241,6 +248,9 @@ h2 {
 	margin: 0 auto 10px;
 	box-shadow: .3s opacity;
 	box-shadow: 0 6px 12px rgba(0,0,0,.23), 0 10px 40px rgba(0,0,0,.19);
+}
+.box-container .image-caption {
+ bottom: -50px;
 }
 .image-info {
 	position: relative;
