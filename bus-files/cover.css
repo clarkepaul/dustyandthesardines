@@ -678,3 +678,17 @@ h2 + p > small {
 .hidden {
 	display: none;
 }
+.logbook-card {
+	padding: 20px;
+	height: 290px;
+	margin-bottom: 0;
+	overflow-y: auto;
+}
+.logbook-card h5 {
+	color: #333;
+  text-decoration: none;
+  text-shadow: none;
+}
+.logbook-card p {
+	color: #777;
+}
