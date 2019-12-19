@@ -381,7 +381,7 @@ svg * { transform-box: fill-box; }
 .section-curved {
 	background: #eee; /* #486675 */
 	font-size:18px;
-	padding: 0 30px 150px;
+	padding: 0 0 150px;
 	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' width='100%25' height='200' viewBox='0 0 1600 200'%3E%3Cpath fill='%23EEE' d='M1610 0H-10v100h390c91.4 0 254.2-80 420-80s328.6 80 420 80h390V0z'/%3E%3C/svg%3E"),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' preserveAspectRatio='none' width='100%25' height='200' viewBox='0 0 1600 200'%3E%3Cg transform='scale(1%2C -1) translate(0%2C -200)'%3E%3Cpath fill='%23FFF' d='M1610 0H-10v100h390c91.4 0 254.2-80 420-80s328.6 80 420 80h390V0z'/%3E%3C/g%3E%3C/svg%3E");
 	background-repeat:no-repeat;background-size: 180% 200px;
 	background-position: top center, bottom center;
