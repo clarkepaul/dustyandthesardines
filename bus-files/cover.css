@@ -333,10 +333,21 @@ margin-bottom: 0;
 }
 @media (min-width: 992px) {
 	.section {
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+
+	.bus-original .section {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+
+	.original-bus-image {
+		margin-top: 40px;
+	}
 }
+
+
 
 /* logbook */
 .logbook-list {
