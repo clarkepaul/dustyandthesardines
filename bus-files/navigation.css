@@ -78,10 +78,9 @@
 	display: block;
 	position: relative;
 	padding: 1.8rem .5rem 1rem;
-	font-size: 1em;
+	font-size: 1.1em;
 	letter-spacing: 1px;
 	font-family: Geomanist Book,Arial,sans-serif;
-	text-transform: uppercase;
 	opacity: 1;
 	transition: color .2s;
 	/* height: 3px;
