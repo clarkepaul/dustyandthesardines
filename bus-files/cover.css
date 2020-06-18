@@ -629,7 +629,7 @@ h2 + p > small {
 
 .menu	.item {
 		display: inline-block;
-		width: 150px;
+		width: 100px;
 		height: 27px;
 		border-left: 1px solid #aaa;
 		padding: 1em .5em;
