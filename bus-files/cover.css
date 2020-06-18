@@ -579,9 +579,9 @@ figcaption::after {
 .music-player {
 	background-color: #fafafa;
 }
-h2 + p {
+/* h2 + p {
 	margin-bottom: 0;
-}
+} */
 h2 + p > small {
 	top: -20px;
 	position: relative;
