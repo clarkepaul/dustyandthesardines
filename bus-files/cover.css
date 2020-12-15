@@ -332,10 +332,10 @@ margin-bottom: 0;
 	}
 }
 @media (min-width: 992px) {
-	.section {
+	/* .section {
 		padding-top: 80px;
 		padding-bottom: 80px;
-	}
+	} */
 
 	.bus-original .section {
 		padding-top: 40px;
@@ -703,6 +703,23 @@ h2 + p > small {
 }
 
 .logbook-upcoming {
-	border-color: yellow;
+	border-color: #ff9a1d;
 	height: 200px;
+	padding-top: 60px;
+
+}
+
+.logbook-upcoming:before {
+	content: "Where to next?";
+	position: absolute;
+	display: block;
+	top: 0px;
+	border-radius: 10px 10px 0 0;
+	left: 16px;
+	right: 16px;
+	height: 40px;
+	padding: 10px 20px;
+	width: calc(100%-40px);
+	background-color: #ff9a1d;
+	color: #333;
 }
