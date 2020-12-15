@@ -629,7 +629,7 @@ h2 + p > small {
 
 .menu	.item {
 		display: inline-block;
-		width: 100px;
+		width: 70px;
 		height: 27px;
 		border-left: 1px solid #aaa;
 		padding: 1em .5em;
@@ -649,7 +649,7 @@ h2 + p > small {
 		to right,
 		#777 0px,
 		#fff 1px,
-		#fff 10px
+		#fff 7px
 	);
 }
 .menu	.item span {
@@ -703,14 +703,13 @@ h2 + p > small {
 }
 
 .logbook-upcoming {
-	border-color: #ff9a1d;
+	border-color: #fff;
 	height: 200px;
 	padding-top: 60px;
-
 }
 
 .logbook-upcoming:before {
-	content: "Where to next?";
+	content: "Where are we heading next?";
 	position: absolute;
 	display: block;
 	top: 0px;
@@ -718,8 +717,8 @@ h2 + p > small {
 	left: 16px;
 	right: 16px;
 	height: 40px;
-	padding: 10px 20px;
+	padding: 8px 20px 12px;
 	width: calc(100%-40px);
-	background-color: #ff9a1d;
+	background-color: #fff;
 	color: #333;
 }
