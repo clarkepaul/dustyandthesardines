@@ -701,3 +701,8 @@ h2 + p > small {
 .logbook-card p {
 	color: #999;
 }
+
+.logbook-upcoming {
+	border-color: yellow;
+	height: 200px;
+}
