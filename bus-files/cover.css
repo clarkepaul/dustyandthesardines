@@ -706,6 +706,7 @@ h2 + p > small {
 	border-color: #fff;
 	height: 200px;
 	padding-top: 60px;
+	background-color: #38403f;
 }
 
 .logbook-upcoming:before {
