@@ -1,3 +1,7 @@
+Preference use chrome/brave extension Webpage Spell-Check
+
+----
+or do a site audit here
 Spell check site https://www.internetmarketingninjas.com/online-spell-checker.php
 
 Website https://clarkepaul.github.io/done-and-dusted/index.html
