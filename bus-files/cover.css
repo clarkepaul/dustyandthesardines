@@ -325,10 +325,22 @@ margin-bottom: 0;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+.projects .section {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.projects {
+	margin-top: 60px;
+}
+
 @media (min-width: 768px) {
 	.section {
 		padding-top: 60px;
 		padding-bottom: 60px;
+	}
+	.projects .section {
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 }
 @media (min-width: 992px) {
@@ -528,6 +540,9 @@ li, ol, ul {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+iframe.simple-image {
+	margin-top: 0;
+}
 .simple-video {
 	width: 100%;
 	min-height: 300px;
@@ -595,13 +610,14 @@ h2 + p > small {
 }
 .date-outside {
 	position: relative;
+	text-align: right;
 }
 @media (min-width: 1330px) {
 	.date-outside {
 		text-align: right;
-		position: absolute;
+		/* position: absolute;
 		left: -106px;
-		width: 100px;
+		width: 100px; */
 	}
 }
 
