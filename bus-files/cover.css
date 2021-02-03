@@ -740,19 +740,19 @@ h2 + p > small {
 }
 
 .video-header {
-	height: 90vh;
+	height: 50vh;
 	position: relative;
 	overflow: hidden;
 }
 
 #myVideo {
-	position: absolute;
+	/* position: absolute;
 	min-height: 90vh;
-	min-width: 100%;
-	top: 0;
+	min-width: 100%; */
+	/* top: 0;
   right: 0;
   left: 0;
-	display: block;
+	display: block; */
 }
 
 .video-header::after {
