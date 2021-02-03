@@ -325,11 +325,11 @@ margin-bottom: 0;
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-.projects .section {
+.projects-posts .section {
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.projects {
+.projects-posts {
 	margin-top: 60px;
 }
 
@@ -338,7 +338,7 @@ margin-bottom: 0;
 		padding-top: 60px;
 		padding-bottom: 60px;
 	}
-	.projects .section {
+	.projects-posts .section {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
