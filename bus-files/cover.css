@@ -160,9 +160,13 @@ h2 {
 	}
 
 	.index .page-heading {
-		font-size: 4em;
+		font-size: 3.8em;
 		margin-top: 0;
 	}
+}
+
+.index .lead {
+	margin-bottom: 30px;
 }
 
 .gallery-container,
