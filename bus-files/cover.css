@@ -60,18 +60,16 @@ img {
 	display: inline-block;
 	text-transform: uppercase;
 	text-shadow: none; /* Prevent inheritance from `body` */
-	background-color: #d26d35;
+	background-color: tomato;
 	/* background: linear-gradient(175deg,#779896 50%,#648684); */
 	color: #FFF !important;
 	border: 0;
 	font-size: 16px;
 }
-.btn-special:hover {
-	background-color: #ca652d;
-}
 .btn-group>.btn:not(:first-child) {
 	margin-left: 0;
 }
+del { color: tomato; }
 
 
 
