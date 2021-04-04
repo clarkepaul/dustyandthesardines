@@ -60,7 +60,7 @@ img {
 	display: inline-block;
 	text-transform: uppercase;
 	text-shadow: none; /* Prevent inheritance from `body` */
-	background-color: tomato;
+	background-color: #3c96a4;
 	/* background: linear-gradient(175deg,#779896 50%,#648684); */
 	color: #FFF !important;
 	border: 0;

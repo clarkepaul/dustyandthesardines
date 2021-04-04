@@ -39,18 +39,19 @@
 	margin-left: 20px;
 	transition: .2s linear;
 }
-@media (min-width: 574px) {
+/* @media (min-width: 574px) {
 	.masthead-brand {
 		margin-left: 36px;
 	}
-}
+} */
 .masthead-brand a {
-	width: 180px;
-	height: 70px;
+	width: 200px;
+	height: 300px;
 	display: block;
 	position: relative;
 	background: url(../images/brand/Dusty_white.png) transparent 0 0 no-repeat;
-	background-size: contain;
+  /* background: url(../images/brand/can1@2x.png) transparent 0 0 no-repeat; */
+  background-size: contain;
 	text-indent: -1000%;
 }
 .light-theme .masthead-brand a {
