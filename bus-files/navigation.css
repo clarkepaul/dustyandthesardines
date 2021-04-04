@@ -45,16 +45,16 @@
 	}
 }
 .masthead-brand a {
-	width: 174px;
-	height: 40px;
+	width: 130px;
+	height: 70px;
 	display: block;
 	position: relative;
-	background: url(../images/brand/Brand@3x_white.png) transparent 0 0 no-repeat;
+	background: url(../images/brand/Dusty_white.png) transparent 0 0 no-repeat;
 	background-size: contain;
 	text-indent: -1000%;
 }
 .light-theme .masthead-brand a {
-	background: url(../images/brand/Brand@3x_dark.png) transparent 0 0 no-repeat;
+	background: url(../images/brand/Dusty_black.png) transparent 0 0 no-repeat;
 	background-size: contain;
 }
 

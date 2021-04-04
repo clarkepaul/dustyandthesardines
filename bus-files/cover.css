@@ -177,14 +177,15 @@ h2 {
 }
 
 .page-heading span {
-	width: 174px;
-	height: 40px;
-	display: inline-block;
-	position: relative;
-	background: url(../images/brand/Brand@3x_white.png) transparent 0 0 no-repeat;
-	background-size: contain;
+	/* width: 174px;
+	height: 40px; */
+	/* display: inline-block;
+	position: relative; */
+	/* background: url(../images/brand/Brand@3x_white.png) transparent 0 0 no-repeat;
+	background: url(../images/brand/Dusty_white.png) transparent 0 0 no-repeat; */
+	/* background-size: contain;
 	text-indent: -1000%;
-	top: 8px;
+	top: 8px; */
 }
 
 @media (min-width: 768px) {
@@ -728,7 +729,7 @@ h2 + p > small {
 }
 
 .logbook-upcoming:before {
-	content: "Where to next?";
+	content: "Upcoming tour";
 	position: absolute;
 	display: block;
 	top: 0px;
