@@ -778,7 +778,11 @@ h2 + p > small {
 	border-radius: 3px;
 	box-shadow: 3px 4px 0px #579a94;
 	display: inline-block;
+}
 
+body.about .header,
+body.about .main {
+	background-color: #eee;
 }
 
 /* instagram */
