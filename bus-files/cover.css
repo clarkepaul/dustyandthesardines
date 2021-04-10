@@ -57,7 +57,7 @@ img {
 
 .btn-special {
 	border-radius: 100px;
-	display: inline-block;
+
 	text-shadow: none; /* Prevent inheritance from `body` */
 	background-color: #3c96a4;
 	/* background: linear-gradient(175deg,#779896 50%,#648684); */
@@ -784,13 +784,15 @@ body.about .main {
 }
 
 .index-box {
-	height:200px;
+	height:240px;
 	background-color: rgba(0, 0, 0, 0.7);
-	padding: 20px;
+	padding: 10px 20px;
 	border-radius: 8px;
 }
-.index-box .btn {
-	margin-bottom: -60px;
+
+.index-box .btn-link {
+	padding: 0;
+	color: #3c96a4;
 }
 
 /* instagram */
