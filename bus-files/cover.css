@@ -58,7 +58,6 @@ img {
 .btn-special {
 	border-radius: 100px;
 	display: inline-block;
-	text-transform: uppercase;
 	text-shadow: none; /* Prevent inheritance from `body` */
 	background-color: #3c96a4;
 	/* background: linear-gradient(175deg,#779896 50%,#648684); */
@@ -771,7 +770,7 @@ h2 + p > small {
 }
 
 .notice {
-	background-color: #82c5bf;
+	background-color: #7498a9;
 	color: #333;
 	padding: 7px 15px;
 	border-radius: 3px;
@@ -784,9 +783,19 @@ body.about .main {
 	background-color: #eee;
 }
 
+.index-box {
+	height:200px;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 20px;
+	border-radius: 8px;
+}
+.index-box .btn {
+	margin-bottom: -60px;
+}
+
 /* instagram */
 .instagram-media .Embed {
-	background-color: red;
+	background-color: #7498a9;
 }
 .Embed > *::not(.Content) {
 	displasy: none;
