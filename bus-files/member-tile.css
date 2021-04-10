@@ -194,8 +194,8 @@
   overflow: hidden;
   display: flex;
   height: 100%;
-	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-top: 250px;
+	margin-bottom: 100px;
 	flex-direction: column;
 	z-index: 2;
 }
@@ -206,6 +206,11 @@
 	}
 }
 
+.hero-caravan {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
 .skewbg-reverse {
 	background-size: contain;
 	width: 100%;
@@ -213,6 +218,7 @@
 	transform: skew(-15deg);
 	background: linear-gradient(90deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.95218) 25%,#fff 44%);
 }
+
 .hero-section.left-section {
 	min-height: 250px;
 	background-size: cover;
