@@ -158,7 +158,7 @@ h2 {
 	}
 
 	.index .page-heading {
-		font-size: 3.8em;
+		font-size: 3.4em;
 		margin-top: 0;
 		line-height: 1.4em
 	}
@@ -784,7 +784,10 @@ h2 + p > small {
 
 .index-box .btn-link {
 	padding: 0;
+	border: none;
 	color: #3c96a4;
+	vertical-align: bottom;
+	line-height: 24px;
 }
 
 /* instagram */
