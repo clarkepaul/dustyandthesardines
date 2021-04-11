@@ -133,16 +133,8 @@
 .logbook .darktheme .nav-masthead .logbook,
 .album .darktheme .nav-masthead .album {
   color: #fff;
-  /* border-bottom-color: #fff; */
 }
-.index .darktheme .nav-masthead .index,
-.contact .darktheme .nav-masthead .contact,
-.projects .darktheme .nav-masthead .projects,
-.logbook .darktheme .nav-masthead .logbook,
-.album .darktheme .nav-masthead .album {
-  color: #fff;
-  /* border-bottom-color: #fff; */
-}
+
 .index .darktheme .nav-masthead .index:after,
 .contact .darktheme .nav-masthead .contact:after,
 .projects .darktheme .nav-masthead .projects:after,
@@ -154,13 +146,10 @@
 
 /* light theme */
 .logbook .nav-masthead .logbook,
-.about .nav-masthead .about,
 .album .nav-masthead .album {
 	color: #000;
-  /* border-bottom-color: #000; */
 }
 .logbook .nav-masthead .logbook:after,
-.about .nav-masthead .about:after,
 .album .nav-masthead .album:after {
   background: #a6c3c1;
 	width: 60px;
