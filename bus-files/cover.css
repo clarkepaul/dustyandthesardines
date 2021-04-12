@@ -667,11 +667,15 @@ h2 + p > small {
 		#fff 7px
 	);
 }
-.menu	.item span {
+.menu	.item span,
+.menu .item a.year-link {
 	position: absolute;
 	left: -32px;
 	top: 13px;
-	color: #333;
+	color: #FFF;
+	background-color: #3c96a4;
+	border-radius: 2px;
+	padding: 0 3px;
 }
 .menu	.item a {
 	color: #777;
@@ -695,6 +699,43 @@ h2 + p > small {
 .right-paddle {
 	right: 4px;
 }
+
+/* year jumper */
+.menu-wrapper2 {
+ text-align: center;
+ margin-top: -24px;
+}
+.menu-wrapper2-bottom {
+	margin-top: 40px;
+}
+.menu-wrapper2-link {
+	margin: 0 6px;
+}
+.menu-wrapper2-link.active {
+	background-color: #333;
+	position: relative;
+}
+.menu-wrapper2-link.active::after {
+	height: 16px;
+	width: 16px;
+	background-color: #333;
+	position: absolute;
+	bottom: -8px;
+	margin: 0 auto;
+	display: block;
+	content: " ";
+	-webkit-transform: translateX(8px) rotate(45deg);
+      -ms-transform: translateX(8px) rotate(45deg);
+          transform: translateX(8px) rotate(45deg);
+}
+.menu-wrapper2-bottom .menu-wrapper2-link.active::after {
+	top: -8px;
+	bottom: auto;
+}
+/* year jumper end */
+
+
+
 .hidden {
 	display: none;
 }
