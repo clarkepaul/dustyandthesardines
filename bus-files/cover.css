@@ -830,6 +830,15 @@ h2 + p > small {
 	border-radius: 8px;
 }
 
+.index-box p {
+  margin: 0;
+	width: calc(100% - 40px);
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .index-box .btn-link {
 	padding: 0;
 	border: none;
@@ -854,6 +863,7 @@ h2 + p > small {
   -o-animation: fadeIn 3s;
   -ms-animation: fadeIn 3s;
 }
+
 @keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
