@@ -93,9 +93,11 @@ body {
 }
 
 .darktheme.bg {
-	background-color: #424b4a;
+	background-color: #174E57;
 	background-repeat: no-repeat!important;
 	background-size: cover!important;
+	box-shadow: inset 0 0 40rem 40rem rgb(0 0 0 / 30%), 
+							inset 0 0 100rem 100rem rgb(0 0 0 / 30%)
 }
 .bg.image-on-bottom {
 	background-position: 50%!important;
@@ -392,9 +394,10 @@ margin-bottom: 0;
 /* Logbook */
 .tree-bg {
 	background-color: #ff7700;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23464e4d' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23414847' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23444d4c' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23343a3e' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23444e4d' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23353943' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23525a59' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%233a3b4a' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%234f5957' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2336364c' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%234a5553' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232f2e48' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23276069' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%235E4D75' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23276069' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%234C4B75' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23276069' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%234C4B75' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23183A40' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%232d2340' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23183A40' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%232d2340' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23183A40' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232d2340' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
 	background-attachment: fixed;
 	background-size: cover;
+	padding-bottom: 200px;
 }
 
 /* About */
@@ -761,7 +764,7 @@ h2 + p > small {
 .logbook-upcoming {
 	border-color: #fff;
 	padding-top: 60px;
-	background-color: #38403f;
+	background-color: #2d2340;
 }
 
 .logbook-upcoming:before {
