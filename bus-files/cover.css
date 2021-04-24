@@ -485,6 +485,7 @@ svg * { transform-box: fill-box; }
 }
 .btn-arrows {
 	background-color: #fff;
+	transition: all .3s ease;
 }
 .nav-posts-mini-controls .nav-posts-next {
 	background: #FFF url(../images/icons/arrow-small-right.svg) 50% no-repeat;
