@@ -463,16 +463,48 @@ svg * { transform-box: fill-box; }
 .blocks {
 	position: relative;
 	z-index: 10;
-	margin-top: -20px;
+	margin-top: -66px;
 }
 .shadowMedium {
 	box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 }
+.blockThree {
+	padding: 0 60px 0 60px;
+}
 .blockThree li {
 	flex-direction: row;
-	padding: 36px 48px;
+	padding: 36px 15px;
 	width: 33%;
 	border: 0;
+}
+.blockThree li:first-child {
+	padding-left: 30px;
+}
+.blockThree li:last-child {
+	padding-right: 30px;
+}
+.btn-arrows {
+	background-color: #fff;
+}
+.nav-posts-mini-controls .nav-posts-next {
+	background: #FFF url(../images/icons/arrow-small-right.svg) 50% no-repeat;
+}
+.nav-posts-mini-controls .nav-posts-prev {
+	background: #FFF url(../images/icons/arrow-small-left.svg) 50% no-repeat;
+}
+.nav-posts-prev {
+	border-right: 1px solid #ddd;
+}
+.nav-posts-next {
+	border-left: 1px solid #ddd;
+}
+.nav-posts-prev:hover {
+    transform: translate(-10px, 0);
+		width: 70px;
+}
+.nav-posts-next:hover {
+    transform: translate(10px, 0);
+		width: 70px;
 }
 @media (max-width: 768px) {
 	.blockThree li {
@@ -887,4 +919,30 @@ h2 + p > small {
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+.nav-posts-mini-controls {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.nav-posts-mini {
+	text-indent: -999999px;
+	width: 60px;
+	height: 125px;
+	position: absolute;
+	top: 0;
+}
+
+.nav-posts-prev {
+	left: 0;
+	border-radius: 8px 0 0 8px;
+	height: 100%;
+}
+
+.nav-posts-next {
+	right: 0;
+	border-radius: 0 8px 8px 0;
+	height: 100%;
 }
