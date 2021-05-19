@@ -240,6 +240,7 @@
 	top: 10px;
 	border-radius: 8px;
 	height: 56px;
+	background-color: #174E57 !important;
 }
 .nav-menu .nav-link {
 	display: none;
