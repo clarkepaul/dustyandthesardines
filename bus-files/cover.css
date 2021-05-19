@@ -474,6 +474,7 @@ svg * { transform-box: fill-box; }
 	padding: 36px 15px;
 	width: 33%;
 	border: 0;
+	z-index: 2;
 }
 .blockThree li:first-child {
 	padding-left: 30px;
