@@ -98,6 +98,13 @@
   z-index: -1;
 	transition: width .3s;
 }
+.nav-masthead .icon-small {
+  margin: -5px 8px 0 0;
+  display: inline-block;
+}
+.nav-masthead .icon-small > img {
+  margin-top: 5px;
+}
 .nav-menu .nav-link {
 	border-radius: 4px;
 }
