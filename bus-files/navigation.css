@@ -98,11 +98,13 @@
   z-index: -1;
 	transition: width .3s;
 }
-.nav-masthead .icon-small {
+.nav-masthead .icon-small,
+.nav-mobile .icon-small {
   margin: -5px 8px 0 0;
   display: inline-block;
 }
-.nav-masthead .icon-small > img {
+.nav-masthead .icon-small > img,
+.nav-mobile .icon-small > img {
   margin-top: 5px;
 }
 .nav-menu .nav-link {

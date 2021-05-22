@@ -318,7 +318,11 @@ margin-bottom: 0;
 * Footer
 */
 .mastfoot {
-	color: rgba(255, 255, 255, .5);
+	/* color: rgba(255, 255, 255, .5); */
+	color: #777;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
 }
 
 
