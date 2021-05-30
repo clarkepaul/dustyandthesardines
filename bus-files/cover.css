@@ -35,6 +35,10 @@ img {
 	background-position: top center, bottom center; */
 }
 
+a {
+	color: #3c96a4;
+}
+
 /* Custom default button */
 .btn {
 	line-height: 1;
@@ -540,22 +544,22 @@ li, ol, ul {
 }
 .page-navigate h5 {
 	margin-bottom: 0;
-	color: #00ca95;
+	color: #3c96a4;
 }
 .page-nav-left,
 .page-nav-right {
 	border-radius: 50px;
 	position: relative;
-	max-width: 350px;
+	max-width: 45%;
 	padding: 1rem 2rem 0 2rem;
 }
 .page-nav-left {
-	padding-left: 46px;
+	padding-left: 30px;
 	flex: 0 0 50%;
 	margin-right: auto;
 }
 .page-nav-right {
-	padding-right: 46px;
+	padding-right: 30px;
 	flex: 0 0 50%;
 	text-align: right;
 	margin-left: auto;
@@ -567,7 +571,7 @@ li, ol, ul {
 	content: "";
 	background: url(../images/icons/arrow-small-right.svg) 50% no-repeat;
 	top: 26px;
-	right: 16px;
+	right: 0;
 }
 .page-nav-left:after {
 	position: absolute;
@@ -576,7 +580,7 @@ li, ol, ul {
 	content: "";
 	background: url(../images/icons/arrow-small-left.svg) 50% no-repeat;
 	top: 26px;
-	left: 16px;
+	left: 0;
 }
 .border-radius-8 {
 	border-radius: 8px;
