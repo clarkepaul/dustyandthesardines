@@ -72,7 +72,7 @@ a {
 .btn-group>.btn:not(:first-child) {
 	margin-left: 0;
 }
-del { color: tomato; }
+/* del { color: tomato; } */
 
 
 
