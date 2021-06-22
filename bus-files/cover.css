@@ -380,6 +380,12 @@ margin-bottom: 0;
 
 
 /* logbook */
+.resources .bg {
+	background-image: url(../images/duotone.png);
+	background-size: cover;
+ 	background-repeat: no-repeat;
+	background-position: center;
+}
 .logbook-list {
 	z-index: 10;
 	position: relative;
