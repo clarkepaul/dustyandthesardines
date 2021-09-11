@@ -348,6 +348,9 @@ margin-bottom: 0;
 	padding-bottom: 10px;
 	Margin-top: 100px;
 }
+.projects-posts .section:first-child {
+	Margin-top: 0;
+}
 .projects-posts {
 	margin-top: 60px;
 }
