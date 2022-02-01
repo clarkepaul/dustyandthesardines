@@ -627,6 +627,12 @@ a:hover {
 .large-text {
 	font-size: 17px;
 }
+.mb-20 {
+	/* margin-bottom: 30px !important; */
+}
+.mr-30 {
+	margin-right: 30px !important;
+}
 .right-50 {
 	float: right;
 	width: 48%;
